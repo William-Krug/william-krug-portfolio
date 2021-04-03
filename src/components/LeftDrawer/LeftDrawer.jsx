@@ -2,11 +2,8 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 
-/* Import Components */
-
 /* Import Styles */
 import {
-  AppBar,
   Avatar,
   Box,
   CssBaseline,
@@ -19,7 +16,6 @@ import {
   ListItemIcon,
   ListItemText,
   makeStyles,
-  Toolbar,
   Typography,
 } from '@material-ui/core';
 
@@ -47,10 +43,6 @@ const useStyles = makeStyles((theme) => ({
     width: theme.spacing(15),
     height: theme.spacing(15),
   },
-  // appBar: {
-  //   width: `calc(100% - ${drawerWidth}px)`,
-  //   marginLeft: drawerWidth,
-  // },
   drawer: {
     width: drawerWidth,
     flexShrink: 0,
@@ -58,8 +50,6 @@ const useStyles = makeStyles((theme) => ({
   drawerPaper: {
     width: drawerWidth,
   },
-  // necessary for content to be below app bar
-  // toolbar: theme.mixins.toolbar,
   content: {
     flexGrow: 1,
     backgroundColor: theme.palette.background.default,
@@ -81,13 +71,6 @@ function LeftDrawer() {
   return (
     <div className={classes.root}>
       <CssBaseline />
-      {/* <AppBar position="fixed" className={classes.appBar}>
-        <Toolbar>
-          <Typography variant="h2" component="h1" noWrap>
-            William Krug
-          </Typography>
-        </Toolbar>
-      </AppBar> */}
       <Drawer
         className={classes.drawer}
         variant="permanent"
