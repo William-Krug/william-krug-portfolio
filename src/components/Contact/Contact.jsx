@@ -4,24 +4,12 @@ import React from 'react';
 /* Import Components */
 
 /* Import Styling */
-import {
-  AppBar,
-  CssBaseline,
-  Divider,
-  Drawer,
-  List,
-  ListItem,
-  ListItemIcon,
-  ListItemText,
-  makeStyles,
-  Toolbar,
-  Typography,
-} from '@material-ui/core';
+import { Box, CssBaseline, makeStyles, Typography } from '@material-ui/core';
 
 const drawerWidth = 240;
 
 const useStyles = makeStyles((theme) => ({
-  toolbar: theme.mixins.toolbar,
+  // toolbar: theme.mixins.toolbar,
   content: {
     width: `calc(100% - ${drawerWidth}px)`,
     marginLeft: drawerWidth,
@@ -36,8 +24,13 @@ function Contact() {
 
   return (
     <main className={classes.content}>
+      <CssBaseline />
       <div className={classes.toolbar}>
-        <h1>This is the Contact Page</h1>
+        <Box mt={10} ml={10} mb={10}>
+          <Typography variant="h2" component="h1">
+            Contact Me
+          </Typography>
+        </Box>
       </div>
     </main>
   );

@@ -109,10 +109,10 @@
 - [ ] List of Page
   - [ ] Link each list item to respective page
   - [x] Appropriate icon per list item
-- [ ] Social Media
-  - [ ] Bottom of Drawer
-  - [ ] GitHub
-  - [ ] LinkedIn
+- [x] Social Media
+  - [x] Bottom of Drawer
+  - [x] GitHub
+  - [x] LinkedIn
 
 ## Home Page
 

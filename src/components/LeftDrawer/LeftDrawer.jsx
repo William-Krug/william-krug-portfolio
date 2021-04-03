@@ -5,21 +5,23 @@ import { useHistory } from 'react-router-dom';
 /* Import Components */
 
 /* Import Styles */
-import { makeStyles } from '@material-ui/core/styles';
-import Avatar from '@material-ui/core/Avatar';
-import Box from '@material-ui/core/Box';
-import Grid from '@material-ui/core/Grid';
-import Drawer from '@material-ui/core/Drawer';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Link from '@material-ui/core/Link';
-import List from '@material-ui/core/List';
-import Typography from '@material-ui/core/Typography';
-import Divider from '@material-ui/core/Divider';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
+import {
+  AppBar,
+  Avatar,
+  Box,
+  CssBaseline,
+  Divider,
+  Drawer,
+  Grid,
+  Link,
+  List,
+  ListItem,
+  ListItemIcon,
+  ListItemText,
+  makeStyles,
+  Toolbar,
+  Typography,
+} from '@material-ui/core';
 
 import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import AppsIcon from '@material-ui/icons/Apps';
@@ -45,10 +47,10 @@ const useStyles = makeStyles((theme) => ({
     width: theme.spacing(15),
     height: theme.spacing(15),
   },
-  appBar: {
-    width: `calc(100% - ${drawerWidth}px)`,
-    marginLeft: drawerWidth,
-  },
+  // appBar: {
+  //   width: `calc(100% - ${drawerWidth}px)`,
+  //   marginLeft: drawerWidth,
+  // },
   drawer: {
     width: drawerWidth,
     flexShrink: 0,
@@ -57,7 +59,7 @@ const useStyles = makeStyles((theme) => ({
     width: drawerWidth,
   },
   // necessary for content to be below app bar
-  toolbar: theme.mixins.toolbar,
+  // toolbar: theme.mixins.toolbar,
   content: {
     flexGrow: 1,
     backgroundColor: theme.palette.background.default,
@@ -79,13 +81,13 @@ function LeftDrawer() {
   return (
     <div className={classes.root}>
       <CssBaseline />
-      <AppBar position="fixed" className={classes.appBar}>
+      {/* <AppBar position="fixed" className={classes.appBar}>
         <Toolbar>
-          <Typography variant="h6" noWrap>
+          <Typography variant="h2" component="h1" noWrap>
             William Krug
           </Typography>
         </Toolbar>
-      </AppBar>
+      </AppBar> */}
       <Drawer
         className={classes.drawer}
         variant="permanent"
@@ -97,25 +99,38 @@ function LeftDrawer() {
         <div className={classes.toolbar} />
         <Grid container justify="center">
           <Grid item>
-            <div className={classes.root}>
-              <Avatar
-                alt="William Krug"
-                src={headshot}
-                className={classes.large}
-              />
-            </div>
+            <Box mt={10}>
+              <div className={classes.root}>
+                <Avatar
+                  alt="William Krug"
+                  src={headshot}
+                  className={classes.large}
+                />
+              </div>
+            </Box>
+          </Grid>
+          <Grid container justify="center">
+            <Grid item>
+              <Typography variant="subtitle1" component="p">
+                William Krug
+              </Typography>
+            </Grid>
           </Grid>
         </Grid>
         <Divider />
         <List>
-          <ListItem button key={'Home'} onClick={history.push('/')}>
+          <ListItem button key={'Home'} onClick={() => history.push('/')}>
             <ListItemIcon>
               <HomeIcon />
             </ListItemIcon>
             <ListItemText primary={'Home'} />
           </ListItem>
 
-          <ListItem button key={'Projects'} onClick={history.push('/projects')}>
+          <ListItem
+            button
+            key={'Projects'}
+            onClick={() => history.push('/projects')}
+          >
             <ListItemIcon>
               <AppsIcon />
             </ListItemIcon>
@@ -125,7 +140,7 @@ function LeftDrawer() {
           <ListItem
             button
             key={'Experience'}
-            onClick={history.push('/experience')}
+            onClick={() => history.push('/experience')}
           >
             <ListItemIcon>
               <WorkIcon />
@@ -136,7 +151,7 @@ function LeftDrawer() {
           <ListItem
             button
             key={'Education'}
-            onClick={history.push('/eduction')}
+            onClick={() => history.push('/education')}
           >
             <ListItemIcon>
               <SchoolIcon />
@@ -144,14 +159,18 @@ function LeftDrawer() {
             <ListItemText primary={'Education'} />
           </ListItem>
 
-          <ListItem button key={'About'} onClick={history.push('/about')}>
+          <ListItem button key={'About'} onClick={() => history.push('/about')}>
             <ListItemIcon>
               <InfoIcon />
             </ListItemIcon>
             <ListItemText primary={'About'} />
           </ListItem>
 
-          <ListItem button key={'Contact'} onClick={history.push('/contact')}>
+          <ListItem
+            button
+            key={'Contact'}
+            onClick={() => history.push('/contact')}
+          >
             <ListItemIcon>
               <AccountBoxIcon />
             </ListItemIcon>
@@ -161,7 +180,7 @@ function LeftDrawer() {
         <Box>
           <Grid container justify="center" alignItems="flex-end">
             <Grid item>
-              <Box mt={45}>
+              <Box mt={35}>
                 <Link
                   href="https://github.com/William-Krug"
                   target="_blank"
