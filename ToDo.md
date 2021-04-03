@@ -166,7 +166,7 @@
 
 ## About Page
 
-- [ ] who am i
+- [x] who am i
 - [ ] what do I like to do
 - [ ] anctedote (cars => programming??)
 

@@ -1,8 +1,6 @@
 /* Import Libraries */
 import React from 'react';
 
-/* Import Components */
-
 /* Import Styling */
 import {
   Box,
@@ -18,7 +16,6 @@ import {
 const drawerWidth = 240;
 
 const useStyles = makeStyles((theme) => ({
-  // toolbar: theme.mixins.toolbar,
   content: {
     width: `calc(100% - ${drawerWidth}px)`,
     marginLeft: drawerWidth,
@@ -35,7 +32,7 @@ function Contact() {
     <main className={classes.content}>
       <CssBaseline />
       <div className={classes.toolbar}>
-        <Box mt={10} ml={10} mb={10}>
+        <Box m={10}>
           <Typography variant="h2" component="h1">
             Contact Me
           </Typography>
