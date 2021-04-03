@@ -105,10 +105,10 @@
 
 ## Drawer
 
-- [ ] Avatar
+- [x] Avatar
 - [ ] List of Page
   - [ ] Link each list item to respective page
-  - [ ] Appropriate icon per list item
+  - [x] Appropriate icon per list item
 - [ ] Social Media
   - [ ] Bottom of Drawer
   - [ ] GitHub
@@ -122,6 +122,27 @@
   - [ ] resume downloads
 
 ## Projects Page
+
+- [ ] My Running Journal
+  - [ ] Heroku link
+  - [ ] Description of App
+  - [ ] tech used
+  - [ ] what i learned
+- [ ] Group Project
+  - [ ] Heroku link
+  - [ ] Description of App
+  - [ ] tech used
+  - [ ] what i learned
+- [ ] Unit Testing
+  - [ ] Heroku link
+  - [ ] Description of App
+  - [ ] tech used
+  - [ ] what i learned
+- [ ] Karel Robot
+  - [ ] Heroku link
+  - [ ] Description of App
+  - [ ] tech used
+  - [ ] what i learned
 
 ## Experience Page
 

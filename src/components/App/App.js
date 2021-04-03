@@ -11,13 +11,11 @@ import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Education from '../Education/Education';
 import Experience from '../Experience/Experience';
-// import Header from '../Header/Header';
 import Home from '../Home/Home';
 import LeftDrawer from '../LeftDrawer/LeftDrawer';
 import Projects from '../Projects/Projects';
 
 /* Import Styling */
-import logo from '../../logo.svg';
 import './App.css';
 import {
   AppBar,
@@ -32,6 +30,14 @@ import {
   Toolbar,
   Typography,
 } from '@material-ui/core';
+import AccountBoxIcon from '@material-ui/icons/AccountBox';
+import AppsIcon from '@material-ui/icons/Apps';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import HomeIcon from '@material-ui/icons/Home';
+import InfoIcon from '@material-ui/icons/Info';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import SchoolIcon from '@material-ui/icons/School';
+import WorkIcon from '@material-ui/icons/Work';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 
 const drawerWidth = 240;
@@ -39,6 +45,30 @@ const drawerWidth = 240;
 /*
   Generate own Material-UI theme
 */
+const useStyles = makeStyles((theme) => ({
+  root: {
+    display: 'flex',
+  },
+  appBar: {
+    width: `calc(100% - ${drawerWidth}px)`,
+    marginLeft: drawerWidth,
+    backgroundColor: theme.palette.background.default,
+  },
+  drawer: {
+    width: drawerWidth,
+    flexShrink: 0,
+  },
+  drawerPaper: {
+    width: drawerWidth,
+  },
+  toolbar: theme.mixins.toolbar,
+  content: {
+    flexGrow: 1,
+    backgroundColor: theme.palette.background.default,
+    padding: theme.spacing(3),
+  },
+}));
+
 const customTheme = createMuiTheme({
   // Theme Settings
   // palette: {
@@ -92,29 +122,39 @@ const customTheme = createMuiTheme({
 });
 
 function App() {
+  const classes = useStyles();
+
   return (
-    <>
+    <ThemeProvider theme={customTheme}>
+      <CssBaseline />
+
       <Router>
-        {/* <Header /> */}
         <LeftDrawer />
+        <Route exact path="/">
+          <Home />
+        </Route>
+
+        <Route exact path="/projects">
+          <Projects />
+        </Route>
+
+        <Route exact path="/experience">
+          <Experience />
+        </Route>
+
+        <Route exact path="/education">
+          <Education />
+        </Route>
+
+        <Route exact path="/about">
+          <About />
+        </Route>
+
+        <Route exact path="/contact">
+          <Contact />
+        </Route>
       </Router>
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    </>
+    </ThemeProvider>
   );
 }
 
