@@ -7,8 +7,14 @@ import {
 } from 'react-router-dom';
 
 /* Import Components */
-import Header from '../Header/Header';
+import About from '../About/About';
+import Contact from '../Contact/Contact';
+import Education from '../Education/Education';
+import Experience from '../Experience/Experience';
+// import Header from '../Header/Header';
+import Home from '../Home/Home';
 import LeftDrawer from '../LeftDrawer/LeftDrawer';
+import Projects from '../Projects/Projects';
 
 /* Import Styling */
 import logo from '../../logo.svg';
@@ -89,7 +95,7 @@ function App() {
   return (
     <>
       <Router>
-        <Header />
+        {/* <Header /> */}
         <LeftDrawer />
       </Router>
       <div className="App">
