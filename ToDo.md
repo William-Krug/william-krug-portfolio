@@ -172,8 +172,8 @@
 
 ## Contact Page
 
-- [ ] email
-- [ ] phone number
-- [ ] city/state
-- [ ] GitHub link
-- [ ] LinkedIn link
+- [x] email
+- [x] phone number
+- [x] city/state
+- [x] GitHub link
+- [x] LinkedIn link
