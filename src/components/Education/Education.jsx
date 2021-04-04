@@ -9,8 +9,10 @@ import prime from '../images/prime-logo.png';
 import ncc from '../images/ncc-logo.jpeg';
 import uti from '../images/uti-logo.jpeg';
 
+// Global variable to Navigation sidebar
 const drawerWidth = 240;
 
+// Custom theme setup
 const useStyles = makeStyles((theme) => ({
   content: {
     width: `calc(100% - ${drawerWidth}px)`,
@@ -24,23 +26,41 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+/**
+ * Component lists out higher education I've obtained including:
+ * - School Name
+ * - Link to School Website
+ * - Degree / Certification
+ * - Dates Attended
+ * - Brief Description of Learned Material
+ * @returns {jsx} renders Education page
+ */
 function Education() {
   const classes = useStyles();
 
   return (
     <main className={classes.content}>
       <div className={classes.toolbar}>
+        {/* Page Heading */}
         <Box m={10}>
           <Typography variant="h2" component="h1">
             Education
           </Typography>
         </Box>
         <Box mt={5} mr={20} mb={5} ml={20}>
+          {/* Prime Digital Academy */}
           <Box mb={5}>
             <Box mt={2} mb={2} ml={3}>
               <Typography variant="h3" component="h2">
                 Prime Digital Academy
               </Typography>
+              <Link
+                href="https://primeacademy.io/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://primeacademy.io/
+              </Link>
             </Box>
             <Box mt={2} ml={3}>
               <Typography variant="body1" component="p">
@@ -66,21 +86,29 @@ function Education() {
               </Typography>
             </Box>
             <Box mb={2} ml={3}>
-              <Link
+              {/* <Link
                 href="https://primeacademy.io/"
                 target="_blank"
                 rel="noreferrer"
               >
                 https://primeacademy.io/
-              </Link>
+              </Link> */}
             </Box>
           </Box>
 
+          {/* Normandale Community College */}
           <Box mb={5}>
             <Box mt={2} mb={2} ml={3}>
               <Typography variant="h3" component="h2">
                 Normandale Community College
               </Typography>
+              <Link
+                href="https://www.normandale.edu/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://www.normandale.edu/
+              </Link>
             </Box>
             <Box mt={2} ml={3}>
               <Typography variant="body1" component="p">
@@ -103,7 +131,7 @@ function Education() {
                 Solving, Public Speaking and Technical Writing.
               </Typography>
             </Box>
-            <Box mb={2} ml={3}>
+            {/* <Box mb={2} ml={3}>
               <Link
                 href="https://www.normandale.edu/"
                 target="_blank"
@@ -111,14 +139,22 @@ function Education() {
               >
                 https://www.normandale.edu/
               </Link>
-            </Box>
+            </Box> */}
           </Box>
 
+          {/* Universal Technical Institute */}
           <Box mb={5}>
             <Box mt={2} mb={2} ml={3}>
               <Typography variant="h3" component="h2">
                 Universal Technical Institute (UTI)
               </Typography>
+              <Link
+                href="https://start.uti.edu/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://start.uti.edu/
+              </Link>
             </Box>
             <Box mt={2} ml={3}>
               <Typography variant="body1" component="p">
@@ -142,7 +178,7 @@ function Education() {
                 Diagnostics, FORD Factory Training, and Audi Factory Training.
               </Typography>
             </Box>
-            <Box mb={2} ml={3}>
+            {/* <Box mb={2} ml={3}>
               <Link
                 href="https://start.uti.edu/"
                 target="_blank"
@@ -150,7 +186,7 @@ function Education() {
               >
                 https://start.uti.edu/
               </Link>
-            </Box>
+            </Box> */}
           </Box>
         </Box>
       </div>
