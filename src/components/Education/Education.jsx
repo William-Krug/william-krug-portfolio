@@ -2,11 +2,10 @@
 import React from 'react';
 
 /* Import Styling */
+// import './Education.css';
 import {
-  Avatar,
   Box,
   CssBaseline,
-  Grid,
   Link,
   makeStyles,
   Typography,
@@ -56,7 +55,11 @@ function Education() {
               </Typography>
             </Box>
             <Box mb={2} ml={3}>
-              <Typography variant="subtitle1" component="p">
+              <Typography
+                variant="subtitle1"
+                component="p"
+                className="dateRange"
+              >
                 December 2020 - Present
               </Typography>
             </Box>
@@ -92,7 +95,11 @@ function Education() {
               </Typography>
             </Box>
             <Box mb={2} ml={3}>
-              <Typography variant="subtitle1" component="p">
+              <Typography
+                variant="subtitle1"
+                component="p"
+                className="dateRange"
+              >
                 January 2016 - May 2020
               </Typography>
             </Box>
@@ -127,7 +134,11 @@ function Education() {
               </Typography>
             </Box>
             <Box mb={2} ml={3}>
-              <Typography variant="subtitle1" component="p">
+              <Typography
+                variant="subtitle1"
+                component="p"
+                className="dateRange"
+              >
                 September 2003 - December 2005
               </Typography>
             </Box>

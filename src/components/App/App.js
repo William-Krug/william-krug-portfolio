@@ -1,10 +1,5 @@
 /* Import Libraries */
-import {
-  HashRouter as Router,
-  Route,
-  Link,
-  useHistory,
-} from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 
 /* Import Components */
 import About from '../About/About';
@@ -17,27 +12,7 @@ import Projects from '../Projects/Projects';
 
 /* Import Styling */
 import './App.css';
-import {
-  AppBar,
-  CssBaseline,
-  Divider,
-  Drawer,
-  List,
-  ListItem,
-  ListItemIcon,
-  ListItemText,
-  makeStyles,
-  Toolbar,
-  Typography,
-} from '@material-ui/core';
-import AccountBoxIcon from '@material-ui/icons/AccountBox';
-import AppsIcon from '@material-ui/icons/Apps';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import HomeIcon from '@material-ui/icons/Home';
-import InfoIcon from '@material-ui/icons/Info';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import SchoolIcon from '@material-ui/icons/School';
-import WorkIcon from '@material-ui/icons/Work';
+import { CssBaseline } from '@material-ui/core';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 
 const drawerWidth = 240;
@@ -45,30 +20,6 @@ const drawerWidth = 240;
 /*
   Generate own Material-UI theme
 */
-const useStyles = makeStyles((theme) => ({
-  root: {
-    display: 'flex',
-  },
-  appBar: {
-    width: `calc(100% - ${drawerWidth}px)`,
-    marginLeft: drawerWidth,
-    backgroundColor: theme.palette.background.default,
-  },
-  drawer: {
-    width: drawerWidth,
-    flexShrink: 0,
-  },
-  drawerPaper: {
-    width: drawerWidth,
-  },
-  toolbar: theme.mixins.toolbar,
-  content: {
-    flexGrow: 1,
-    backgroundColor: theme.palette.background.default,
-    padding: theme.spacing(3),
-  },
-}));
-
 const customTheme = createMuiTheme({
   // Theme Settings
   // palette: {
@@ -98,13 +49,13 @@ const customTheme = createMuiTheme({
   //     contrastText: '',
   //   },
   // },
-  // typography: {},
-  // root: {
-  //   diplay: 'flex',
+  // typography: {
+  //   subtitle1: {
+  //     fontStyle: italic,
+  //   },
   // },
-  // appBar: {
-  //   width: `calc(100% - ${drawerWidth}px)`,
-  //   marginLeft: drawerWidth,
+  // root: {
+  //   display: 'flex',
   // },
   // drawer: {
   //   width: drawerWidth,
@@ -113,7 +64,6 @@ const customTheme = createMuiTheme({
   // drawerPaper: {
   //   width: drawerWidth,
   // },
-  // toolbar: this.mixins.toolbar,
   // content: {
   //   flexGrow: 1,
   //   backgroundColor: this.palette.background.default,
@@ -122,8 +72,6 @@ const customTheme = createMuiTheme({
 });
 
 function App() {
-  const classes = useStyles();
-
   return (
     <ThemeProvider theme={customTheme}>
       <CssBaseline />

@@ -167,8 +167,8 @@
 ## About Page
 
 - [x] who am i
-- [ ] what do I like to do
-- [ ] anctedote (cars => programming??)
+- [x] what do I like to do
+- [x] anctedote (cars => programming??)
 
 ## Contact Page
 
