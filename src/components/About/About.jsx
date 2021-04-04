@@ -4,8 +4,10 @@ import React from 'react';
 /* Import Styles */
 import { Box, makeStyles, Typography } from '@material-ui/core';
 
+// Global variable to Navigation sidebar
 const drawerWidth = 240;
 
+// Custom theme setup
 const useStyles = makeStyles((theme) => ({
   content: {
     width: `calc(100% - ${drawerWidth}px)`,
@@ -16,17 +18,25 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+/**
+ * Component lists details about me
+ *
+ * @returns {jsx} renders About page
+ */
 function About() {
   const classes = useStyles();
 
   return (
     <main className={classes.content}>
       <div className={classes.toolbar}>
+        {/* Page Heading */}
         <Box m={10}>
           <Typography variant="h2" component="h1">
             About Me
           </Typography>
         </Box>
+
+        {/* Attention Getter */}
         <Box mt={5} mr={20} mb={5} ml={20}>
           <Typography variant="body1" component="p">
             Decisiveness, grit, problem-solving, these are not simply buzz words
@@ -37,6 +47,8 @@ function About() {
             smaller problems until the whole is complete.
           </Typography>
         </Box>
+
+        {/* Anecdote */}
         <Box mt={5} mr={20} mb={5} ml={20}>
           <Typography variant="body1" component="p">
             My professional career started in the shop working on cars. I find
@@ -56,6 +68,8 @@ function About() {
             but grace and sophistication as well.
           </Typography>
         </Box>
+
+        {/* Hobbies */}
         <Box mt={5} mr={20} mb={5} ml={20}>
           <Typography variant="body1" component="p">
             In my free time I love to run. For fun, for sport, for peace of

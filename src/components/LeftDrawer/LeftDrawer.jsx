@@ -79,6 +79,8 @@ function LeftDrawer() {
         anchor="left"
       >
         <div className={classes.toolbar} />
+
+        {/* Avatar */}
         <Grid container justify="center">
           <Grid item>
             <Box mt={10}>
@@ -100,7 +102,10 @@ function LeftDrawer() {
           </Grid>
         </Grid>
         <Divider />
+
+        {/* Navigation Links */}
         <List>
+          {/* Home */}
           <ListItem button key={'Home'} onClick={() => history.push('/')}>
             <ListItemIcon>
               <HomeIcon />
@@ -108,6 +113,7 @@ function LeftDrawer() {
             <ListItemText primary={'Home'} />
           </ListItem>
 
+          {/* Projects */}
           <ListItem
             button
             key={'Projects'}
@@ -119,7 +125,8 @@ function LeftDrawer() {
             <ListItemText primary={'Projects'} />
           </ListItem>
 
-          <ListItem
+          {/* Skills */}
+          {/* <ListItem
             button
             key={'Skills'}
             onClick={() => history.push('/skills')}
@@ -128,8 +135,9 @@ function LeftDrawer() {
               <CodeIcon />
             </ListItemIcon>
             <ListItemText primary={'Skills'} />
-          </ListItem>
+          </ListItem> */}
 
+          {/* Experience */}
           <ListItem
             button
             key={'Experience'}
@@ -141,6 +149,7 @@ function LeftDrawer() {
             <ListItemText primary={'Experience'} />
           </ListItem>
 
+          {/* Education */}
           <ListItem
             button
             key={'Education'}
@@ -152,6 +161,7 @@ function LeftDrawer() {
             <ListItemText primary={'Education'} />
           </ListItem>
 
+          {/* About */}
           <ListItem button key={'About'} onClick={() => history.push('/about')}>
             <ListItemIcon>
               <InfoIcon />
@@ -159,6 +169,7 @@ function LeftDrawer() {
             <ListItemText primary={'About'} />
           </ListItem>
 
+          {/* Contact */}
           <ListItem
             button
             key={'Contact'}
@@ -170,6 +181,8 @@ function LeftDrawer() {
             <ListItemText primary={'Contact'} />
           </ListItem>
         </List>
+
+        {/* Social Media */}
         <Box>
           <Grid container justify="center" alignItems="flex-end">
             <Grid item>

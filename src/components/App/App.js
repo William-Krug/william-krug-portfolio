@@ -9,6 +9,7 @@ import Experience from '../Experience/Experience';
 import Home from '../Home/Home';
 import LeftDrawer from '../LeftDrawer/LeftDrawer';
 import Projects from '../Projects/Projects';
+import Skills from '../Skills/Skills';
 
 /* Import Styling */
 import './App.css';
@@ -25,7 +26,7 @@ const customTheme = createMuiTheme({
   // palette: {
   //   //type: 'dark',
   //   primary: {
-  //     main: '',
+  //     main: '#424242',
   //     contrastText: '',
   //   },
   //   secondary: {
@@ -85,6 +86,10 @@ function App() {
         <Route exact path="/projects">
           <Projects />
         </Route>
+
+        {/* <Route exact path="/skills">
+          <Skills />
+        </Route> */}
 
         <Route exact path="/experience">
           <Experience />
