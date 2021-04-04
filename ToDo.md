@@ -148,21 +148,21 @@
 
 ## Education Page
 
-- [ ] Prime
+- [x] Prime
   - [ ] logo
-  - [ ] link to page
-  - [ ] degree
-  - [ ] graduation date
-- [ ] Normandale
+  - [x] link to page
+  - [x] degree
+  - [x] graduation date
+- [x] Normandale
   - [ ] logo
-  - [ ] link to page
-  - [ ] degree
-  - [ ] graduation date
-- [ ] UTI
+  - [x] link to page
+  - [x] degree
+  - [x] graduation date
+- [x] UTI
   - [ ] logo
-  - [ ] link to page
-  - [ ] degree
-  - [ ] graduation date
+  - [x] link to page
+  - [x] degree
+  - [x] graduation date
 
 ## About Page
 

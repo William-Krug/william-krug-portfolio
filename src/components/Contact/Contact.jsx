@@ -40,58 +40,54 @@ function Contact() {
         <Box mt={5}>
           <Grid container justify="center">
             <Grid item>
-              <Card>
-                <Grid container justify="center">
-                  <Grid item>
-                    <Box mt={3} mb={1}>
-                      <Typography variant="h3" component="h2">
-                        William Krug
-                      </Typography>
-                    </Box>
-                  </Grid>
+              <Grid container justify="center">
+                <Grid item>
+                  <Box mt={3} mb={1}>
+                    <Typography variant="h3" component="h2">
+                      William Krug
+                    </Typography>
+                  </Box>
                 </Grid>
-                <CardContent>
-                  <Box mt={2} mb={2} ml={3}>
-                    <Typography variant="body1" component="p">
-                      <strong>Email:</strong> william.p.krug@gmail.com
-                    </Typography>
-                  </Box>
-                  <Box mt={2} mb={2} ml={3}>
-                    <Typography variant="body1" component="p">
-                      <strong>Phone:</strong> +1 (651) 428-5553
-                    </Typography>
-                  </Box>
-                  <Box mt={2} mb={2} ml={3}>
-                    <Typography variant="body1" component="p">
-                      <strong>Location:</strong> Twin Cities, Minnesota
-                    </Typography>
-                  </Box>
-                  <Box mt={2} mb={2} ml={3} mr={3}>
-                    <Typography variant="body1" component="p">
-                      <strong>GitHub:</strong>{' '}
-                      <Link
-                        href="https://github.com/William-Krug"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        https://github.com/William-Krug
-                      </Link>
-                    </Typography>
-                  </Box>
-                  <Box mt={2} mb={2} ml={3} mr={3}>
-                    <Typography variant="body1" component="p">
-                      <strong>LinkedIn:</strong>{' '}
-                      <Link
-                        href="https://www.linkedin.com/in/william-krug-67a86ab6/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        https://www.linkedin.com/in/william-krug-67a86ab6/
-                      </Link>
-                    </Typography>
-                  </Box>
-                </CardContent>
-              </Card>
+              </Grid>
+              <Box mt={2} mb={2} ml={3}>
+                <Typography variant="body1" component="p">
+                  <strong>Email:</strong> william.p.krug@gmail.com
+                </Typography>
+              </Box>
+              <Box mt={2} mb={2} ml={3}>
+                <Typography variant="body1" component="p">
+                  <strong>Phone:</strong> +1 (651) 428-5553
+                </Typography>
+              </Box>
+              <Box mt={2} mb={2} ml={3}>
+                <Typography variant="body1" component="p">
+                  <strong>Location:</strong> Twin Cities, Minnesota
+                </Typography>
+              </Box>
+              <Box mt={2} mb={2} ml={3} mr={3}>
+                <Typography variant="body1" component="p">
+                  <strong>GitHub:</strong>{' '}
+                  <Link
+                    href="https://github.com/William-Krug"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    https://github.com/William-Krug
+                  </Link>
+                </Typography>
+              </Box>
+              <Box mt={2} mb={2} ml={3} mr={3}>
+                <Typography variant="body1" component="p">
+                  <strong>LinkedIn:</strong>{' '}
+                  <Link
+                    href="https://www.linkedin.com/in/william-krug-67a86ab6/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    https://www.linkedin.com/in/william-krug-67a86ab6/
+                  </Link>
+                </Typography>
+              </Box>
             </Grid>
           </Grid>
         </Box>
