@@ -35,6 +35,9 @@ function Projects() {
                   My Running Journal
                 </Typography>
                 <Link href="" target="_blank" rel="noreferrer"></Link>
+                <Typography variant="body1" component="p">
+                  Loreum Ipsum
+                </Typography>
               </Box>
             </Grid>
             <Grid item xs={6}>
@@ -43,6 +46,9 @@ function Projects() {
                   Contrive
                 </Typography>
                 <Link href="" target="_blank" rel="noreferrer"></Link>
+                <Typography variant="body1" component="p">
+                  Loreum Ipsum
+                </Typography>
               </Box>
             </Grid>
             <Grid item xs={6}>
@@ -51,6 +57,9 @@ function Projects() {
                   Unit Testing
                 </Typography>
                 <Link href="" target="_blank" rel="noreferrer"></Link>
+                <Typography variant="body1" component="p">
+                  Loreum Ipsum
+                </Typography>
               </Box>
             </Grid>
             <Grid item xs={6}>
@@ -65,6 +74,9 @@ function Projects() {
                 >
                   https://github.com/William-Krug/karelRobot
                 </Link>
+                <Typography variant="body1" component="p">
+                  Loreum Ipsum
+                </Typography>
               </Box>
             </Grid>
             <Grid item xs={6}>
@@ -79,6 +91,9 @@ function Projects() {
                 >
                   https://github.com/William-Krug/Valour-Enterprises
                 </Link>
+                <Typography variant="body1" component="p">
+                  Loreum Ipsum
+                </Typography>
               </Box>
             </Grid>
           </Grid>
