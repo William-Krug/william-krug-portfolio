@@ -34,10 +34,18 @@ function Projects() {
                 <Typography variant="h3" component="h2">
                   My Running Journal
                 </Typography>
-                <Link href="" target="_blank" rel="noreferrer"></Link>
-                <Typography variant="body1" component="p">
-                  Loreum Ipsum
-                </Typography>
+                <Link
+                  href="https://my-running-journal.herokuapp.com/#/home"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  https://my-running-journal.herokuapp.com/#/home
+                </Link>
+                <Box mt={3} mb={3}>
+                  <Typography variant="body1" component="p">
+                    Loreum Ipsum
+                  </Typography>
+                </Box>
               </Box>
             </Grid>
             <Grid item xs={6}>
@@ -46,9 +54,11 @@ function Projects() {
                   Contrive
                 </Typography>
                 <Link href="" target="_blank" rel="noreferrer"></Link>
-                <Typography variant="body1" component="p">
-                  Loreum Ipsum
-                </Typography>
+                <Box mt={3} mb={3}>
+                  <Typography variant="body1" component="p">
+                    Coming Soon
+                  </Typography>
+                </Box>
               </Box>
             </Grid>
             <Grid item xs={6}>
@@ -57,9 +67,11 @@ function Projects() {
                   Unit Testing
                 </Typography>
                 <Link href="" target="_blank" rel="noreferrer"></Link>
-                <Typography variant="body1" component="p">
-                  Loreum Ipsum
-                </Typography>
+                <Box mt={3} mb={3}>
+                  <Typography variant="body1" component="p">
+                    Coming Soon
+                  </Typography>
+                </Box>
               </Box>
             </Grid>
             <Grid item xs={6}>
@@ -74,9 +86,15 @@ function Projects() {
                 >
                   https://github.com/William-Krug/karelRobot
                 </Link>
-                <Typography variant="body1" component="p">
-                  Loreum Ipsum
-                </Typography>
+                <Box mt={3} mb={3}>
+                  <Typography variant="body1" component="p">
+                    This was an exercise in Object-Oriented Programming, taking
+                    Richard Pattis's <em>Karel Robot</em> concept and recreating
+                    it in <strong>Java</strong>. Like Pattis's <em>Karel</em>,
+                    these robots have beepers, move around the world and must
+                    avoid obstacles in their path.
+                  </Typography>
+                </Box>
               </Box>
             </Grid>
             <Grid item xs={6}>
@@ -91,9 +109,15 @@ function Projects() {
                 >
                   https://github.com/William-Krug/Valour-Enterprises
                 </Link>
-                <Typography variant="body1" component="p">
-                  Loreum Ipsum
-                </Typography>
+                <Box mt={3} mb={3}>
+                  <Typography variant="body1" component="p">
+                    Website mockup for a fictional suite of companies. Written
+                    using vanilla <strong>HTML</strong> and <strong>CSS</strong>
+                    , this project gave me a good foundation on how HTML
+                    elements function and their interaction with different CSS
+                    displays.
+                  </Typography>
+                </Box>
               </Box>
             </Grid>
           </Grid>
