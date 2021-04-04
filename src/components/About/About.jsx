@@ -2,13 +2,7 @@
 import React from 'react';
 
 /* Import Styles */
-import {
-  Box,
-  CssBaseline,
-  Grid,
-  makeStyles,
-  Typography,
-} from '@material-ui/core';
+import { Box, makeStyles, Typography } from '@material-ui/core';
 
 const drawerWidth = 240;
 
@@ -27,7 +21,6 @@ function About() {
 
   return (
     <main className={classes.content}>
-      <CssBaseline />
       <div className={classes.toolbar}>
         <Box m={10}>
           <Typography variant="h2" component="h1">

@@ -6,7 +6,6 @@ import { useHistory } from 'react-router-dom';
 import {
   Avatar,
   Box,
-  CssBaseline,
   Divider,
   Drawer,
   Grid,
@@ -70,7 +69,6 @@ function LeftDrawer() {
 
   return (
     <div className={classes.root}>
-      <CssBaseline />
       <Drawer
         className={classes.drawer}
         variant="permanent"

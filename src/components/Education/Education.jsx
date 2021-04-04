@@ -3,13 +3,7 @@ import React from 'react';
 
 /* Import Styling */
 // import './Education.css';
-import {
-  Box,
-  CssBaseline,
-  Link,
-  makeStyles,
-  Typography,
-} from '@material-ui/core';
+import { Box, Link, makeStyles, Typography } from '@material-ui/core';
 
 import prime from '../images/prime-logo.png';
 import ncc from '../images/ncc-logo.jpeg';
@@ -35,7 +29,6 @@ function Education() {
 
   return (
     <main className={classes.content}>
-      <CssBaseline />
       <div className={classes.toolbar}>
         <Box m={10}>
           <Typography variant="h2" component="h1">

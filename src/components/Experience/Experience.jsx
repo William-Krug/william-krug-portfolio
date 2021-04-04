@@ -5,7 +5,6 @@ import React from 'react';
 // import './Experience.css';
 import {
   Box,
-  CssBaseline,
   Link,
   List,
   ListItem,
@@ -17,7 +16,6 @@ import {
 const drawerWidth = 240;
 
 const useStyles = makeStyles((theme) => ({
-  toolbar: theme.mixins.toolbar,
   content: {
     width: `calc(100% - ${drawerWidth}px)`,
     marginLeft: drawerWidth,
@@ -32,7 +30,6 @@ function Experience() {
 
   return (
     <main className={classes.content}>
-      <CssBaseline />
       <div className={classes.toolbar}>
         <Box m={10}>
           <Typography variant="h2" component="h1">

@@ -2,16 +2,7 @@
 import React from 'react';
 
 /* Import Styling */
-import {
-  Box,
-  Card,
-  CardContent,
-  CssBaseline,
-  Grid,
-  Link,
-  makeStyles,
-  Typography,
-} from '@material-ui/core';
+import { Box, Grid, Link, makeStyles, Typography } from '@material-ui/core';
 
 const drawerWidth = 240;
 
@@ -30,7 +21,6 @@ function Contact() {
 
   return (
     <main className={classes.content}>
-      <CssBaseline />
       <div className={classes.toolbar}>
         <Box m={10}>
           <Typography variant="h2" component="h1">
