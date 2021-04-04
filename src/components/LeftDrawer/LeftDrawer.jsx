@@ -20,6 +20,7 @@ import {
 
 import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import AppsIcon from '@material-ui/icons/Apps';
+import CodeIcon from '@material-ui/icons/Code';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import HomeIcon from '@material-ui/icons/Home';
 import InfoIcon from '@material-ui/icons/Info';
@@ -92,7 +93,7 @@ function LeftDrawer() {
           </Grid>
           <Grid container justify="center">
             <Grid item>
-              <Typography variant="subtitle1" component="p">
+              <Typography variant="subtitle2" component="p">
                 William Krug
               </Typography>
             </Grid>
@@ -116,6 +117,17 @@ function LeftDrawer() {
               <AppsIcon />
             </ListItemIcon>
             <ListItemText primary={'Projects'} />
+          </ListItem>
+
+          <ListItem
+            button
+            key={'Skills'}
+            onClick={() => history.push('/skills')}
+          >
+            <ListItemIcon>
+              <CodeIcon />
+            </ListItemIcon>
+            <ListItemText primary={'Skills'} />
           </ListItem>
 
           <ListItem
@@ -161,7 +173,7 @@ function LeftDrawer() {
         <Box>
           <Grid container justify="center" alignItems="flex-end">
             <Grid item>
-              <Box mt={35}>
+              <Box mt={30}>
                 <Link
                   href="https://github.com/William-Krug"
                   target="_blank"
