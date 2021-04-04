@@ -29,6 +29,7 @@ function Projects() {
         </Box>
         <Box mt={5} mr={20} mb={5} ml={20}>
           <Grid container spacing={5}>
+            {/* My Running Journal */}
             <Grid item xs={6}>
               <Box mb={10}>
                 <Typography variant="h3" component="h2">
@@ -43,12 +44,21 @@ function Projects() {
                 </Link>
                 <Box mt={3} mb={3}>
                   <Typography variant="body1" component="p">
-                    Loreum Ipsum
+                    Full stack application built to track users' logged runs and
+                    provide metrics around distance, time, speed, and pacing so
+                    that users can track their progress and feel better prepared
+                    for their next event. App was built with{' '}
+                    <strong>React</strong>, <strong>Redux</strong>,{' '}
+                    <strong>Node.js</strong>, <strong>Express.js</strong>,{' '}
+                    <strong>PostgreSQL</strong>, <strong>Material-UI</strong>,
+                    and <strong>Charts.js</strong>.
                   </Typography>
                 </Box>
               </Box>
             </Grid>
-            <Grid item xs={6}>
+
+            {/* Contrive */}
+            {/* <Grid item xs={6}>
               <Box mb={10}>
                 <Typography variant="h3" component="h2">
                   Contrive
@@ -60,8 +70,10 @@ function Projects() {
                   </Typography>
                 </Box>
               </Box>
-            </Grid>
-            <Grid item xs={6}>
+            </Grid> */}
+
+            {/* Unit Testing */}
+            {/* <Grid item xs={6}>
               <Box mb={10}>
                 <Typography variant="h3" component="h2">
                   Unit Testing
@@ -73,7 +85,9 @@ function Projects() {
                   </Typography>
                 </Box>
               </Box>
-            </Grid>
+            </Grid> */}
+
+            {/* Karel Robot */}
             <Grid item xs={6}>
               <Box mb={10}>
                 <Typography variant="h3" component="h2">
@@ -88,15 +102,17 @@ function Projects() {
                 </Link>
                 <Box mt={3} mb={3}>
                   <Typography variant="body1" component="p">
-                    This was an exercise in Object-Oriented Programming, taking
-                    Richard Pattis's <em>Karel Robot</em> concept and recreating
-                    it in <strong>Java</strong>. Like Pattis's <em>Karel</em>,
-                    these robots have beepers, move around the world and must
-                    avoid obstacles in their path.
+                    An exercise in Object-Oriented Programming, taking Richard
+                    Pattis's <em>Karel Robot</em> concept and recreating it in{' '}
+                    <strong>Java</strong>. Like Pattis's <em>Karel</em>, these
+                    robots have beepers, move around the world and must avoid
+                    obstacles in their path.
                   </Typography>
                 </Box>
               </Box>
             </Grid>
+
+            {/* Valout Enterprises */}
             <Grid item xs={6}>
               <Box mb={10}>
                 <Typography variant="h3" component="h2">

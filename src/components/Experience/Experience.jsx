@@ -52,6 +52,13 @@ function Experience() {
                   </Typography>
                 </span>
               </Typography>
+              <Link
+                href="https://primeacademy.io/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://primeacademy.io/
+              </Link>
             </Box>
             <Box mt={2} ml={3}>
               <Typography variant="body1" component="p" className="jobTitle">
@@ -87,15 +94,6 @@ function Experience() {
                 </List>
               </Box>
             </Box>
-            <Box mb={2} ml={3}>
-              <Link
-                href="https://primeacademy.io/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                https://primeacademy.io/
-              </Link>
-            </Box>
           </Box>
 
           {/* Solera Holding / Identifix */}
@@ -113,6 +111,13 @@ function Experience() {
                   </Typography>
                 </span>
               </Typography>
+              <Link
+                href="https://www.identifix.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://www.identifix.com/
+              </Link>
             </Box>
 
             {/* Project Manager */}
@@ -219,15 +224,6 @@ function Experience() {
                 </ListItem>
               </List>
             </Box>
-            <Box mb={2} ml={3}>
-              <Link
-                href="https://www.identifix.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                https://www.identifix.com/
-              </Link>
-            </Box>
           </Box>
 
           {/* EMMA */}
@@ -292,6 +288,13 @@ function Experience() {
                   </Typography>
                 </span>
               </Typography>
+              <Link
+                href="https://www.flowauto.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://www.flowauto.com/
+              </Link>
             </Box>
             <Box mt={2} mr={20} ml={3}>
               <Typography variant="body1" component="p" className="jobTitle">
@@ -306,15 +309,6 @@ function Experience() {
                   </ListItemText>
                 </ListItem>
               </List>
-            </Box>
-            <Box mb={2} ml={3}>
-              <Link
-                href="https://www.flowauto.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                https://www.flowauto.com/
-              </Link>
             </Box>
           </Box>
 
@@ -333,6 +327,13 @@ function Experience() {
                   </Typography>
                 </span>
               </Typography>
+              <Link
+                href="https://www.chilis.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://www.chilis.com/
+              </Link>
             </Box>
             {/* Server */}
             <Box mt={2} ml={3}>
@@ -383,7 +384,7 @@ function Experience() {
                 <ListItem>
                   <ListItemText>
                     Spoke with customers over the phone and verified requested
-                    orders..
+                    orders.
                   </ListItemText>
                 </ListItem>
                 <ListItem>
@@ -411,7 +412,7 @@ function Experience() {
               <List>
                 <ListItem>
                   <ListItemText>
-                    Approximated wiat times and set realistic expectations for
+                    Approximated wait times and set realistic expectations for
                     guest dining experience.
                   </ListItemText>
                 </ListItem>
@@ -421,15 +422,6 @@ function Experience() {
                   </ListItemText>
                 </ListItem>
               </List>
-            </Box>
-            <Box mb={2} ml={3}>
-              <Link
-                href="https://www.chilis.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                https://www.chilis.com/
-              </Link>
             </Box>
           </Box>
 
@@ -448,6 +440,13 @@ function Experience() {
                   </Typography>
                 </span>
               </Typography>
+              <Link
+                href="https://weinhagen.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://weinhagen.com/
+              </Link>
             </Box>
             <Box mt={2} ml={3}>
               <Typography variant="body1" component="p" className="jobTitle">
@@ -458,15 +457,6 @@ function Experience() {
                   <ListItemText>Maintained customer vehicles.</ListItemText>
                 </ListItem>
               </List>
-            </Box>
-            <Box mb={2} ml={3}>
-              <Link
-                href="https://weinhagen.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                https://weinhagen.com/
-              </Link>
             </Box>
           </Box>
 
@@ -485,6 +475,13 @@ function Experience() {
                   </Typography>
                 </span>
               </Typography>
+              <Link
+                href="https://www.dairyqueen.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                https://www.dairyqueen.com/
+              </Link>
             </Box>
             <Box mt={2} ml={3}>
               <Typography variant="body1" component="p" className="jobTitle">
@@ -504,15 +501,6 @@ function Experience() {
                   <ListItemText>Constructed customer orders.</ListItemText>
                 </ListItem>
               </List>
-            </Box>
-            <Box mb={2} ml={3}>
-              <Link
-                href="https://www.dairyqueen.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                https://www.dairyqueen.com/
-              </Link>
             </Box>
           </Box>
         </Box>
