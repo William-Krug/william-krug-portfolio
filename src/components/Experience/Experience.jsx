@@ -42,15 +42,6 @@ function Experience() {
             <Box mt={2} mb={2} ml={3}>
               <Typography variant="h3" component="h2">
                 Prime Digital Academy
-                <span>
-                  <Typography
-                    variant="subtitle1"
-                    component="p"
-                    className="dateRange"
-                  >
-                    December 2020 - Present
-                  </Typography>
-                </span>
               </Typography>
               <Link
                 href="https://primeacademy.io/"
@@ -59,6 +50,13 @@ function Experience() {
               >
                 https://primeacademy.io/
               </Link>
+              <Typography
+                variant="subtitle1"
+                component="p"
+                className="dateRange"
+              >
+                December 2020 - Present
+              </Typography>
             </Box>
             <Box mt={2} ml={3}>
               <Typography variant="body1" component="p" className="jobTitle">
@@ -101,15 +99,6 @@ function Experience() {
             <Box mt={2} mb={2} ml={3}>
               <Typography variant="h3" component="h2">
                 Solera Holding / Identifix
-                <span>
-                  <Typography
-                    variant="subtitle1"
-                    component="p"
-                    className="dateRange"
-                  >
-                    June 2009 - September 2020
-                  </Typography>
-                </span>
               </Typography>
               <Link
                 href="https://www.identifix.com/"
@@ -118,21 +107,26 @@ function Experience() {
               >
                 https://www.identifix.com/
               </Link>
+              <Typography
+                variant="subtitle1"
+                component="p"
+                className="dateRange"
+              >
+                June 2009 - September 2020
+              </Typography>
             </Box>
 
             {/* Project Manager */}
             <Box mt={2} mr={20} ml={3}>
               <Typography variant="body1" component="p" className="jobTitle">
                 Project Manager
-                <span>
-                  <Typography
-                    variant="subtitle1"
-                    component="p"
-                    className="dateRange"
-                  >
-                    June 2018 - September 2020
-                  </Typography>
-                </span>
+              </Typography>
+              <Typography
+                variant="subtitle1"
+                component="p"
+                className="dateRange"
+              >
+                June 2018 - September 2020
               </Typography>
               <List>
                 <ListItem>
@@ -163,15 +157,13 @@ function Experience() {
             <Box mt={2} mr={20} ml={3}>
               <Typography variant="body1" component="p" className="jobTitle">
                 Data Author 2
-                <span>
-                  <Typography
-                    variant="subtitle1"
-                    component="p"
-                    className="dateRange"
-                  >
-                    June 2015 - June 2018
-                  </Typography>
-                </span>
+              </Typography>
+              <Typography
+                variant="subtitle1"
+                component="p"
+                className="dateRange"
+              >
+                June 2015 - June 2018
               </Typography>
               <List>
                 <ListItem>
@@ -194,15 +186,13 @@ function Experience() {
             <Box mt={2} mr={20} ml={3}>
               <Typography variant="body1" component="p" className="jobTitle">
                 European Carline Specialist
-                <span>
-                  <Typography
-                    variant="subtitle1"
-                    component="p"
-                    className="dateRange"
-                  >
-                    June 2009 - June 2015
-                  </Typography>
-                </span>
+              </Typography>
+              <Typography
+                variant="subtitle1"
+                component="p"
+                className="dateRange"
+              >
+                June 2009 - June 2015
               </Typography>
               <List>
                 <ListItem>
@@ -231,15 +221,13 @@ function Experience() {
             <Box mt={2} mb={2} ml={3}>
               <Typography variant="h3" component="h2">
                 European Medieval Arts of Arms, llc
-                <span>
-                  <Typography
-                    variant="subtitle1"
-                    component="p"
-                    className="dateRange"
-                  >
-                    December 2020 - Present
-                  </Typography>
-                </span>
+              </Typography>
+              <Typography
+                variant="subtitle1"
+                component="p"
+                className="dateRange"
+              >
+                June 2006 - May 2009
               </Typography>
             </Box>
             <Box mt={2} mr={20} ml={3}>
@@ -278,15 +266,6 @@ function Experience() {
             <Box mt={2} mb={2} ml={3}>
               <Typography variant="h3" component="h2">
                 Flow Automotive Companies
-                <span>
-                  <Typography
-                    variant="subtitle1"
-                    component="p"
-                    className="dateRange"
-                  >
-                    December 2020 - Present
-                  </Typography>
-                </span>
               </Typography>
               <Link
                 href="https://www.flowauto.com/"
@@ -295,6 +274,13 @@ function Experience() {
               >
                 https://www.flowauto.com/
               </Link>
+              <Typography
+                variant="subtitle1"
+                component="p"
+                className="dateRange"
+              >
+                August 2005 - May 2009
+              </Typography>
             </Box>
             <Box mt={2} mr={20} ml={3}>
               <Typography variant="body1" component="p" className="jobTitle">
@@ -317,15 +303,6 @@ function Experience() {
             <Box mt={2} mb={2} ml={3}>
               <Typography variant="h3" component="h2">
                 Chili's Grill & Bar
-                <span>
-                  <Typography
-                    variant="subtitle1"
-                    component="p"
-                    className="dateRange"
-                  >
-                    December 2020 - Present
-                  </Typography>
-                </span>
               </Typography>
               <Link
                 href="https://www.chilis.com/"
@@ -334,20 +311,25 @@ function Experience() {
               >
                 https://www.chilis.com/
               </Link>
+              <Typography
+                variant="subtitle1"
+                component="p"
+                className="dateRange"
+              >
+                August 2003 - June 2005
+              </Typography>
             </Box>
             {/* Server */}
             <Box mt={2} ml={3}>
               <Typography variant="body1" component="p" className="jobTitle">
                 Server / Trainer
-                <span>
-                  <Typography
-                    variant="subtitle1"
-                    component="p"
-                    className="dateRange"
-                  >
-                    December 2020 - Present
-                  </Typography>
-                </span>
+              </Typography>
+              <Typography
+                variant="subtitle1"
+                component="p"
+                className="dateRange"
+              >
+                August 2005 - June 2005
               </Typography>
               <List>
                 <ListItem>
@@ -370,15 +352,13 @@ function Experience() {
             <Box mt={2} ml={3}>
               <Typography variant="body1" component="p" className="jobTitle">
                 To Go Server
-                <span>
-                  <Typography
-                    variant="subtitle1"
-                    component="p"
-                    className="dateRange"
-                  >
-                    December 2020 - Present
-                  </Typography>
-                </span>
+              </Typography>
+              <Typography
+                variant="subtitle1"
+                component="p"
+                className="dateRange"
+              >
+                February 2005 - August 2004
               </Typography>
               <List>
                 <ListItem>
@@ -399,15 +379,13 @@ function Experience() {
             <Box mt={2} ml={3}>
               <Typography variant="body1" component="p" className="jobTitle">
                 Host
-                <span>
-                  <Typography
-                    variant="subtitle1"
-                    component="p"
-                    className="dateRange"
-                  >
-                    December 2020 - Present
-                  </Typography>
-                </span>
+              </Typography>
+              <Typography
+                variant="subtitle1"
+                component="p"
+                className="dateRange"
+              >
+                August 2003 - February 2004
               </Typography>
               <List>
                 <ListItem>
@@ -430,15 +408,6 @@ function Experience() {
             <Box mt={2} mb={2} ml={3}>
               <Typography variant="h3" component="h2">
                 Weinhagen Tire Company
-                <span>
-                  <Typography
-                    variant="subtitle1"
-                    component="p"
-                    className="dateRange"
-                  >
-                    December 2020 - Present
-                  </Typography>
-                </span>
               </Typography>
               <Link
                 href="https://weinhagen.com/"
@@ -447,6 +416,13 @@ function Experience() {
               >
                 https://weinhagen.com/
               </Link>
+              <Typography
+                variant="subtitle1"
+                component="p"
+                className="dateRange"
+              >
+                June 2002 - August 2003
+              </Typography>
             </Box>
             <Box mt={2} ml={3}>
               <Typography variant="body1" component="p" className="jobTitle">
@@ -465,15 +441,6 @@ function Experience() {
             <Box mt={2} mb={2} ml={3}>
               <Typography variant="h3" component="h2">
                 Dairy Queen
-                <span>
-                  <Typography
-                    variant="subtitle1"
-                    component="p"
-                    className="dateRange"
-                  >
-                    December 2020 - Present
-                  </Typography>
-                </span>
               </Typography>
               <Link
                 href="https://www.dairyqueen.com/"
@@ -482,6 +449,13 @@ function Experience() {
               >
                 https://www.dairyqueen.com/
               </Link>
+              <Typography
+                variant="subtitle1"
+                component="p"
+                className="dateRange"
+              >
+                June 2000 - June 2002
+              </Typography>
             </Box>
             <Box mt={2} ml={3}>
               <Typography variant="body1" component="p" className="jobTitle">
