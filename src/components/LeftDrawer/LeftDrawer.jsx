@@ -46,6 +46,7 @@ const useStyles = makeStyles((theme) => ({
   drawer: {
     width: drawerWidth,
     flexShrink: 0,
+    backgroundColor: theme.palette.background.default,
   },
   drawerPaper: {
     width: drawerWidth,
@@ -57,7 +58,7 @@ const useStyles = makeStyles((theme) => ({
   },
   clickableIcon: {
     '&:hover': {
-      color: '#ED2939',
+      color: '#d32f2f',
     },
     margin: 15,
   },

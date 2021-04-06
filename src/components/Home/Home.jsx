@@ -46,9 +46,26 @@ function Home() {
               problem to solve.
             </Typography>
           </Box>
+          <Box mt={2} mb={2} mr={10}>
+            <Typography variant="body1" component="p">
+              Let's start a conversation on{' '}
+              <Link
+                href="https://www.linkedin.com/in/william-krug-67a86ab6/"
+                target="_blank"
+                rel="noreferrer"
+                color="initial"
+              >
+                LinkedIn
+              </Link>
+            </Typography>
+          </Box>
           <Box mt={3} mb={2}>
             <Link href={resume} download underline="none">
-              <Button variant="contained" endIcon={<SaveAltIcon />}>
+              <Button
+                variant="contained"
+                endIcon={<SaveAltIcon />}
+                color="primary"
+              >
                 Download CV
               </Button>
             </Link>

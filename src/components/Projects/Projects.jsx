@@ -54,6 +54,11 @@ function Projects() {
                     and <strong>Charts.js</strong>.
                   </Typography>
                 </Box>
+                <Box mt={3} mb={3}>
+                  <Typography variant="body1" component="p">
+                    View source code
+                  </Typography>
+                </Box>
               </Box>
             </Grid>
 

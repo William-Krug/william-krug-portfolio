@@ -80,6 +80,7 @@ function Contact() {
                     href="https://github.com/William-Krug"
                     target="_blank"
                     rel="noreferrer"
+                    color="info"
                   >
                     https://github.com/William-Krug
                   </Link>
@@ -94,6 +95,7 @@ function Contact() {
                     href="https://www.linkedin.com/in/william-krug-67a86ab6/"
                     target="_blank"
                     rel="noreferrer"
+                    color="info"
                   >
                     https://www.linkedin.com/in/william-krug-67a86ab6/
                   </Link>

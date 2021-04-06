@@ -23,40 +23,63 @@ const drawerWidth = 240;
 */
 const customTheme = createMuiTheme({
   // Theme Settings
-  // palette: {
-  //   //type: 'dark',
-  //   primary: {
-  //     main: '#424242',
-  //     contrastText: '',
-  //   },
-  //   secondary: {
-  //     main: '',
-  //     contrastText: '',
-  //   },
-  //   error: {
-  //     main: '',
-  //     contrastText: '',
-  //   },
-  //   warning: {
-  //     main: '',
-  //     contrastText: '',
-  //   },
-  //   info: {
-  //     main: '',
-  //     contrastText: '',
-  //   },
-  //   success: {
-  //     main: '',
-  //     contrastText: '',
-  //   },
-  // },
-  // typography: {
-  //   subtitle1: {
-  //     fontStyle: italic,
-  //   },
-  // },
+  palette: {
+    //type: 'dark',
+    primary: {
+      main: '#d32f2f',
+    },
+    secondary: {
+      // main: '#2FD3D3',
+      main: '#2196f3',
+    },
+    error: {
+      main: '#f44336',
+    },
+    warning: {
+      main: '#ff9800',
+    },
+    info: {
+      // main: '#2196f3',
+      main: '#90caf9',
+    },
+    success: {
+      main: '#4caf50',
+    },
+    // background: {
+    //   default: '#9e9e9e',
+    // },
+  },
+  typography: {
+    fontFamily: ['Lora', 'serif'].join(','),
+    fontSize: 18,
+    h1: {
+      fontFamily: ['Cabin', 'sans-serif'].join(','),
+      fontWeight: 'bold',
+    },
+    h2: {
+      fontFamily: ['Cabin', 'sans-serif'].join(','),
+      fontWeight: 'bold',
+    },
+    h3: {
+      fontFamily: ['Cabin', 'sans-serif'].join(','),
+    },
+    subtitle1: {
+      fontStyle: 'italic',
+    },
+    subtitle2: {
+      fontWeight: 'bold',
+    },
+    body1: {
+      fontSize: '',
+    },
+    body2: {},
+  },
+  overrides: {},
   // root: {
   //   display: 'flex',
+  //   '& > *': {
+  //     margin: theme.spacing(1),
+  //   }
   // },
   // drawer: {
   //   width: drawerWidth,
@@ -66,9 +89,11 @@ const customTheme = createMuiTheme({
   //   width: drawerWidth,
   // },
   // content: {
+  //   width: `calc(100% - ${drawerWidth}px)`,
+  //   marginLeft: drawerWidth,
   //   flexGrow: 1,
-  //   backgroundColor: this.palette.background.default,
-  //   padding: this.spacing(3),
+  //   backgroundColor: theme.palette.background.default,
+  //   padding: theme.spacing(3),
   // },
 });
 
