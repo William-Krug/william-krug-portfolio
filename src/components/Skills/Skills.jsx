@@ -28,43 +28,41 @@ function Skills() {
 
   return (
     <main className={classes.content}>
-      <div className={classes.toolbar}>
-        <Box m={10}>
-          <Typography variant="h2" component="h1">
-            Skills
-          </Typography>
-        </Box>
-        <Box mt={5} mr={20} mb={5} ml={20}>
-          <Typography variant="h3" component="h2" gutterBottom>
-            Programming Languages
-          </Typography>
-          <List>
-            <ListItem>
-              <ListItemText></ListItemText>
-            </ListItem>
-          </List>
-        </Box>
-        <Box mt={5} mr={20} mb={5} ml={20}>
-          <Typography variant="h3" component="h2" gutterBottom>
-            Soft Skills
-          </Typography>
-          <List>
-            <ListItem>
-              <ListItemText></ListItemText>
-            </ListItem>
-          </List>
-        </Box>
-        <Box mt={5} mr={20} mb={5} ml={20}>
-          <Typography variant="h3" component="h2" gutterBottom>
-            Programming Languages
-          </Typography>
-          <List>
-            <ListItem>
-              <ListItemText></ListItemText>
-            </ListItem>
-          </List>
-        </Box>
-      </div>
+      <Box m={10}>
+        <Typography variant="h2" component="h1">
+          Skills
+        </Typography>
+      </Box>
+      <Box mt={5} mr={20} mb={5} ml={20}>
+        <Typography variant="h3" component="h2" gutterBottom>
+          Programming Languages
+        </Typography>
+        <List>
+          <ListItem>
+            <ListItemText></ListItemText>
+          </ListItem>
+        </List>
+      </Box>
+      <Box mt={5} mr={20} mb={5} ml={20}>
+        <Typography variant="h3" component="h2" gutterBottom>
+          Soft Skills
+        </Typography>
+        <List>
+          <ListItem>
+            <ListItemText></ListItemText>
+          </ListItem>
+        </List>
+      </Box>
+      <Box mt={5} mr={20} mb={5} ml={20}>
+        <Typography variant="h3" component="h2" gutterBottom>
+          Programming Languages
+        </Typography>
+        <List>
+          <ListItem>
+            <ListItemText></ListItemText>
+          </ListItem>
+        </List>
+      </Box>
     </main>
   );
 }

@@ -29,8 +29,7 @@ const customTheme = createMuiTheme({
       main: '#d32f2f',
     },
     secondary: {
-      // main: '#2FD3D3',
-      main: '#2196f3',
+      main: '#0000ee',
     },
     error: {
       main: '#f44336',
@@ -39,8 +38,7 @@ const customTheme = createMuiTheme({
       main: '#ff9800',
     },
     info: {
-      // main: '#2196f3',
-      main: '#90caf9',
+      main: '#2196f3',
     },
     success: {
       main: '#4caf50',
@@ -74,7 +72,22 @@ const customTheme = createMuiTheme({
     },
     body2: {},
   },
-  overrides: {},
+  overrides: {
+    MuiButton: {
+      root: {
+        fontWeight: 'bold',
+      },
+    },
+    // MuiDrawer: {
+    //   root: {
+    //     width: drawerWidth,
+    //     flexShrink: '0',
+    //   },
+    //   paper: {
+    //     width: drawerWidth,
+    //   },
+    // },
+  },
   // root: {
   //   display: 'flex',
   //   '& > *': {

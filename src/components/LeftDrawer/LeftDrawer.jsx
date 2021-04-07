@@ -79,8 +79,6 @@ function LeftDrawer() {
         }}
         anchor="left"
       >
-        <div className={classes.toolbar} />
-
         {/* Avatar */}
         <Grid container justify="center">
           <Grid item>

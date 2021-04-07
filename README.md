@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+![MIT LICENSE](https://img.shields.io/github/license/William-Krug/william-krug-portfolio.svg?style=flat-square)
+![REPO SIZE](https://img.shields.io/github/repo-size/William-Krug/william-krug-portfolio.svg?style=flat-square)
+![TOP_LANGUAGE](https://img.shields.io/github/languages/top/William-Krug/william-krug-portfolio.svg?style=flat-square)
+![FORKS](https://img.shields.io/github/forks/William-Krug/william-krug-portfolio.svg?style=social)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# My Running Journal
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+_Duration: 1 Weekend Sprint_
 
-### `npm start`
+This portfolio app was create to showcase my abilities as a software developer and highlight some of my personal projects. An Experience and Education have been added to give background and an About and Contact page for character. This app was built with React and Material-UI.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To see the fully functional site, please visit: [My Running Journal](https://william-krug-portfolio.herokuapp.com/#/home)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Screen Shot
 
-### `npm test`
+![]()
+![]()
+![]()
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- [React](https://reactjs.org/)
+- [Material-UI](https://material-ui.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Open up your editor of choice and run an `npm install`
+2. Run `npm start` in your terminal
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Built With
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React
+- Material-UI
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## License
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[MIT](https://choosealicense.com/licenses/mit/)
 
-## Learn More
+Copyright (c) [2021] [William Krug]
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-### Code Splitting
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Acknowledgement
 
-### Analyzing the Bundle Size
+Thanks to [Prime Digital Academy](www.primeacademy.io) who equipped and helped me to make this application a reality. My instructors, Edan Schwartz & Chad Smith, and the Cullen cohort for their support and encouragement throughout this intense program.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Support
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have suggestions or issues, please email me at [william.p.krug@gmail.com](william.p.krug@gmail.com)
