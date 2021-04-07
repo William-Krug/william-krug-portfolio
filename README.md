@@ -31,14 +31,13 @@ To see the fully functional site, please visit: [My Running Journal](https://wil
 
 ## Usage
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
+1. The Home Page introduces myself and allows users to download my current resume.
+2. Projects highlights examples of my work. Details around lessons learned and technologies used are included along with links to deployed sites (if applicable) and GitHub repositories.
+3. Skills lists out technical, soft, and hard skills I posses.
+4. Experience lists my entire job history dating back to high school.
+5. Education lists my higher education experiences.
+6. About gives background about me and makes me more personable.
+7. Contact provides various means to get in touch with me.
 
 ## Built With
 
