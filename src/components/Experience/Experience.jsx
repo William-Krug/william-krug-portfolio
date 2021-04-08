@@ -37,18 +37,11 @@ function Experience() {
       </Box>
       <Box mt={5} mr={20} mb={5} ml={20}>
         {/* Prime Digital Academy */}
-        <Box mb={5}>
+        <Box mb={7}>
           <Box mt={2} mb={2} ml={3}>
             <Typography variant="h3" component="h2">
               Prime Digital Academy
             </Typography>
-            <Link
-              href="https://primeacademy.io/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              https://primeacademy.io/
-            </Link>
             <Typography variant="subtitle1" component="p" className="dateRange">
               December 2020 - Present
             </Typography>
@@ -86,22 +79,59 @@ function Experience() {
                 </ListItem>
               </List>
             </Box>
+            <Typography variant="body1" component="p">
+              <strong>Group Project:</strong> Contrive
+            </Typography>
+            <Box>
+              <List>
+                <ListItem>
+                  <ListItemText>
+                    Contrive is a DIY Party Planner application that sets itself
+                    apart by suggesting vendors to planners and allowing
+                    planners to filter search results based on unique facts
+                    about the vendors such as female owned, bipoc owned, small
+                    business, and more.
+                  </ListItemText>
+                </ListItem>
+                <ListItem>
+                  <ListItemText>
+                    Working with fellow Prime students, I led the group as both
+                    developer and Project Manager to build the application in a
+                    timely and efficient manner for an MVP product. Vendors can
+                    register to the site and fill out their profile to be
+                    searched by planners as part of the Contrive network.
+                    Planers can create events and review suggested vendors from
+                    the app. If the planner prefers, they can search the vendor
+                    network for help that meets their preferences. To facilitate
+                    connecting with vendors, a chat feature is included in the
+                    app.
+                  </ListItemText>
+                </ListItem>
+                <ListItem>
+                  <ListItemText>
+                    Built with JavaScript, React, Redux, Node, Express, Moment,
+                    and Material-UI.
+                  </ListItemText>
+                </ListItem>
+              </List>
+            </Box>
+            <Link
+              href="https://primeacademy.io/"
+              target="_blank"
+              rel="noreferrer"
+              color="secondary"
+            >
+              https://primeacademy.io/
+            </Link>
           </Box>
         </Box>
 
         {/* Solera Holding / Identifix */}
-        <Box mb={5}>
+        <Box mb={7}>
           <Box mt={2} mb={2} ml={3}>
             <Typography variant="h3" component="h2">
               Solera Holding / Identifix
             </Typography>
-            <Link
-              href="https://www.identifix.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              https://www.identifix.com/
-            </Link>
             <Typography variant="subtitle1" component="p" className="dateRange">
               June 2009 - September 2020
             </Typography>
@@ -190,11 +220,20 @@ function Experience() {
                 </ListItemText>
               </ListItem>
             </List>
+
+            <Link
+              href="https://www.identifix.com/"
+              target="_blank"
+              rel="noreferrer"
+              color="secondary"
+            >
+              https://www.identifix.com/
+            </Link>
           </Box>
         </Box>
 
         {/* EMMA */}
-        <Box mb={5}>
+        <Box mb={7}>
           <Box mt={2} mb={2} ml={3}>
             <Typography variant="h3" component="h2">
               European Medieval Arts of Arms, llc
@@ -235,18 +274,11 @@ function Experience() {
         </Box>
 
         {/* Flow */}
-        <Box mb={5}>
+        <Box mb={7}>
           <Box mt={2} mb={2} ml={3}>
             <Typography variant="h3" component="h2">
               Flow Automotive Companies
             </Typography>
-            <Link
-              href="https://www.flowauto.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              https://www.flowauto.com/
-            </Link>
             <Typography variant="subtitle1" component="p" className="dateRange">
               August 2005 - May 2009
             </Typography>
@@ -264,22 +296,23 @@ function Experience() {
                 </ListItemText>
               </ListItem>
             </List>
+            <Link
+              href="https://www.flowauto.com/"
+              target="_blank"
+              rel="noreferrer"
+              color="secondary"
+            >
+              https://www.flowauto.com/
+            </Link>
           </Box>
         </Box>
 
         {/* Chili's */}
-        <Box mb={5}>
+        <Box mb={7}>
           <Box mt={2} mb={2} ml={3}>
             <Typography variant="h3" component="h2">
               Chili's Grill & Bar
             </Typography>
-            <Link
-              href="https://www.chilis.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              https://www.chilis.com/
-            </Link>
             <Typography variant="subtitle1" component="p" className="dateRange">
               August 2003 - June 2005
             </Typography>
@@ -353,22 +386,23 @@ function Experience() {
                 </ListItemText>
               </ListItem>
             </List>
+            <Link
+              href="https://www.chilis.com/"
+              target="_blank"
+              rel="noreferrer"
+              color="secondary"
+            >
+              https://www.chilis.com/
+            </Link>
           </Box>
         </Box>
 
         {/* Weinhagens */}
-        <Box mb={5}>
+        <Box mb={7}>
           <Box mt={2} mb={2} ml={3}>
             <Typography variant="h3" component="h2">
               Weinhagen Tire Company
             </Typography>
-            <Link
-              href="https://weinhagen.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              https://weinhagen.com/
-            </Link>
             <Typography variant="subtitle1" component="p" className="dateRange">
               June 2002 - August 2003
             </Typography>
@@ -382,22 +416,23 @@ function Experience() {
                 <ListItemText>Maintained customer vehicles.</ListItemText>
               </ListItem>
             </List>
+            <Link
+              href="https://weinhagen.com/"
+              target="_blank"
+              rel="noreferrer"
+              color="secondary"
+            >
+              https://weinhagen.com/
+            </Link>
           </Box>
         </Box>
 
         {/* Dairy Queen */}
-        <Box mb={5}>
+        <Box mb={7}>
           <Box mt={2} mb={2} ml={3}>
             <Typography variant="h3" component="h2">
               Dairy Queen
             </Typography>
-            <Link
-              href="https://www.dairyqueen.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              https://www.dairyqueen.com/
-            </Link>
             <Typography variant="subtitle1" component="p" className="dateRange">
               June 2000 - June 2002
             </Typography>
@@ -420,6 +455,14 @@ function Experience() {
                 <ListItemText>Constructed customer orders.</ListItemText>
               </ListItem>
             </List>
+            <Link
+              href="https://www.dairyqueen.com/"
+              target="_blank"
+              rel="noreferrer"
+              color="secondary"
+            >
+              https://www.dairyqueen.com/
+            </Link>
           </Box>
         </Box>
       </Box>

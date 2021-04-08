@@ -53,13 +53,6 @@ function Education() {
             <Typography variant="h3" component="h2">
               Prime Digital Academy
             </Typography>
-            <Link
-              href="https://primeacademy.io/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              https://primeacademy.io/
-            </Link>
           </Box>
           <Box mt={2} ml={3}>
             <Typography variant="body1" component="p">
@@ -75,19 +68,20 @@ function Education() {
             <Typography variant="body1" component="p">
               Prime is a full stack immersion program that pushes it's students
               to learn and grow at an accelerated pace. Experience gained with:
-              HTML, CSS, JavaScript, jQuery, React, Redux, Node, Express, SQL,
-              Python, Problem Solving, Public Speaking, Project Scoping, and
-              Teamwork.
+              HTML, CSS, JavaScript, jQuery, React, Redux, Node, Express,
+              PostgreSQL, SQL, Python, Problem Solving, Public Speaking, Project
+              Scoping, and Teamwork.
             </Typography>
           </Box>
           <Box mb={2} ml={3}>
-            {/* <Link
-                href="https://primeacademy.io/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                https://primeacademy.io/
-              </Link> */}
+            <Link
+              href="https://primeacademy.io/"
+              target="_blank"
+              rel="noreferrer"
+              color="secondary"
+            >
+              https://primeacademy.io/
+            </Link>
           </Box>
         </Box>
 
@@ -97,13 +91,6 @@ function Education() {
             <Typography variant="h3" component="h2">
               Normandale Community College
             </Typography>
-            <Link
-              href="https://www.normandale.edu/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              https://www.normandale.edu/
-            </Link>
           </Box>
           <Box mt={2} ml={3}>
             <Typography variant="body1" component="p">
@@ -117,20 +104,21 @@ function Education() {
           </Box>
           <Box mt={2} mr={20} mb={2} ml={3}>
             <Typography variant="body1" component="p">
-              Gained experience with: C, Python, Java, Machine Architecture,
+              Experience gained with: C, Python, Java, Machine Architecture,
               Discrete Structures, Algorithms and Data Structures, Problem
               Solving, Public Speaking and Technical Writing.
             </Typography>
           </Box>
-          {/* <Box mb={2} ml={3}>
-              <Link
-                href="https://www.normandale.edu/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                https://www.normandale.edu/
-              </Link>
-            </Box> */}
+          <Box mb={2} ml={3}>
+            <Link
+              href="https://www.normandale.edu/"
+              target="_blank"
+              rel="noreferrer"
+              color="secondary"
+            >
+              https://www.normandale.edu/
+            </Link>
+          </Box>
         </Box>
 
         {/* Universal Technical Institute */}
@@ -139,13 +127,6 @@ function Education() {
             <Typography variant="h3" component="h2">
               Universal Technical Institute (UTI)
             </Typography>
-            <Link
-              href="https://start.uti.edu/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              https://start.uti.edu/
-            </Link>
           </Box>
           <Box mt={2} ml={3}>
             <Typography variant="body1" component="p">
@@ -165,15 +146,16 @@ function Education() {
               Diagnostics, FORD Factory Training, and Audi Factory Training.
             </Typography>
           </Box>
-          {/* <Box mb={2} ml={3}>
-              <Link
-                href="https://start.uti.edu/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                https://start.uti.edu/
-              </Link>
-            </Box> */}
+          <Box mb={2} ml={3}>
+            <Link
+              href="https://start.uti.edu/"
+              target="_blank"
+              rel="noreferrer"
+              color="secondary"
+            >
+              https://start.uti.edu/
+            </Link>
+          </Box>
         </Box>
       </Box>
     </main>

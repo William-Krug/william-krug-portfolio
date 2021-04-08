@@ -51,18 +51,18 @@ function Contact() {
             </Grid>
 
             {/* Email */}
-            <Box mt={2} mb={2} ml={3}>
+            {/* <Box mt={2} mb={2} ml={3}>
               <Typography variant="body1" component="p">
                 <strong>Email:</strong> william.p.krug@gmail.com
               </Typography>
-            </Box>
+            </Box> */}
 
             {/* Phone */}
-            <Box mt={2} mb={2} ml={3}>
+            {/* <Box mt={2} mb={2} ml={3}>
               <Typography variant="body1" component="p">
                 <strong>Phone:</strong> +1 (651) 428-5553
               </Typography>
-            </Box>
+            </Box> */}
 
             {/* Location */}
             <Box mt={2} mb={2} ml={3}>
