@@ -15,9 +15,7 @@ To see the fully functional site, please visit: [My Running Journal](https://wil
 
 ## Screen Shot
 
-![]()
-![]()
-![]()
+![Home Page]()
 
 ### Prerequisites
 
