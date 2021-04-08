@@ -15,7 +15,7 @@ To see the fully functional site, please visit: [My Running Journal](https://wil
 
 ## Screen Shot
 
-![Home Page]()
+![Home Page](https://github.com/William-Krug/william-krug-portfolio/blob/master/src/components/images/homepage.png)
 
 ### Prerequisites
 
