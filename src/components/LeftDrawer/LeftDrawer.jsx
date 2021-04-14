@@ -62,6 +62,11 @@ const useStyles = makeStyles((theme) => ({
     },
     margin: 15,
   },
+  listItem: {
+    '&:hover': {
+      color: '#d32f2f',
+    },
+  },
 }));
 
 function LeftDrawer() {
