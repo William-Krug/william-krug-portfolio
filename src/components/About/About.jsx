@@ -39,9 +39,9 @@ function About() {
       <Box mt={5} mr={20} mb={5} ml={20}>
         <Typography variant="body1" component="p">
           Decisiveness, grit, problem-solving, these are not simply buzz words
-          but superpowers I bring to the table. Whether it's working on a car,
-          coding, or life in general, I process all situations, big or small,
-          the same. I analyze the situation, break down the problem into more
+          but superpowers I bring to the table. Whether it's coding, working on
+          a car, or life in general, I process all situations, big or small, the
+          same. I analyze the situation, break down the problem into more
           manageable chunks, decide on a course of action, and work the smaller
           problems until the whole is complete.
         </Typography>
