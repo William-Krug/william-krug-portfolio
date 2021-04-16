@@ -3,7 +3,7 @@
 ![TOP_LANGUAGE](https://img.shields.io/github/languages/top/William-Krug/william-krug-portfolio.svg?style=flat-square)
 ![FORKS](https://img.shields.io/github/forks/William-Krug/william-krug-portfolio.svg?style=social)
 
-# My Running Journal
+# William Krug Portfolio
 
 ## Description
 
