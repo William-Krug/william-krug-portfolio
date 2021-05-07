@@ -75,6 +75,44 @@ function LeftDrawer() {
   const history = useHistory();
   const preventDefault = (event) => event.preventDefault();
 
+  const menuItems = [
+    {
+      text: 'Home',
+      icon: <HomeIcon />,
+      path: '/',
+    },
+    {
+      text: 'Projects',
+      icon: <AppsIcon />,
+      path: '/projects',
+    },
+    {
+      text: 'Skills',
+      icon: <CodeIcon />,
+      path: '/skills',
+    },
+    {
+      text: 'Experience',
+      icon: <WorkIcon />,
+      path: '/experience',
+    },
+    {
+      text: 'Education',
+      icon: <SchoolIcon />,
+      path: '/education',
+    },
+    {
+      text: 'About',
+      icon: <InfoIcon />,
+      path: '/about',
+    },
+    {
+      text: 'Contact',
+      icon: <AccountBoxIcon />,
+      path: '/contact',
+    },
+  ];
+
   return (
     <div className={classes.root}>
       <Drawer
@@ -110,96 +148,19 @@ function LeftDrawer() {
 
         {/* Navigation Links */}
         <List>
-          {/* Home */}
-          <ListItem
-            className={classes.listItem}
-            button
-            key={'Home'}
-            onClick={() => history.push('/')}
-          >
-            <ListItemIcon>
-              <HomeIcon />
-            </ListItemIcon>
-            <ListItemText primary={'Home'} />
-          </ListItem>
-
-          {/* Projects */}
-          <ListItem
-            className={classes.listItem}
-            button
-            key={'Projects'}
-            onClick={() => history.push('/projects')}
-          >
-            <ListItemIcon>
-              <AppsIcon />
-            </ListItemIcon>
-            <ListItemText primary={'Projects'} />
-          </ListItem>
-
-          {/* Skills */}
-          {/* <ListItem
-          className={classes.listItem}
-            button
-            key={'Skills'}
-            onClick={() => history.push('/skills')}
-          >
-            <ListItemIcon>
-              <CodeIcon />
-            </ListItemIcon>
-            <ListItemText primary={'Skills'} />
-          </ListItem> */}
-
-          {/* Experience */}
-          <ListItem
-            className={classes.listItem}
-            button
-            key={'Experience'}
-            onClick={() => history.push('/experience')}
-          >
-            <ListItemIcon>
-              <WorkIcon />
-            </ListItemIcon>
-            <ListItemText primary={'Experience'} />
-          </ListItem>
-
-          {/* Education */}
-          <ListItem
-            className={classes.listItem}
-            button
-            key={'Education'}
-            onClick={() => history.push('/education')}
-          >
-            <ListItemIcon>
-              <SchoolIcon />
-            </ListItemIcon>
-            <ListItemText primary={'Education'} />
-          </ListItem>
-
-          {/* About */}
-          <ListItem
-            className={classes.listItem}
-            button
-            key={'About'}
-            onClick={() => history.push('/about')}
-          >
-            <ListItemIcon>
-              <InfoIcon />
-            </ListItemIcon>
-            <ListItemText primary={'About'} />
-          </ListItem>
-
-          {/* Contact */}
-          <ListItem
-            className={classes.listItem}
-            button
-            key={'Contact'}
-            onClick={() => history.push('/contact')}
-          >
-            <ListItemIcon>
-              <AccountBoxIcon />
-            </ListItemIcon>
-            <ListItemText primary={'Contact'} />
-          </ListItem>
+          {menuItems.map((item) => {
+            return (
+              <ListItem
+                className={classes.listItem}
+                button
+                key={item.text}
+                onClick={() => history.push(item.path)}
+              >
+                <ListItemIcon>{item.icon}</ListItemIcon>
+                <ListItemText primary={item.text} />
+              </ListItem>
+            );
+          })}
         </List>
 
         {/* Social Media */}

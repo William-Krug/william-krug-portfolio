@@ -43,7 +43,7 @@ function Experience() {
               Prime Digital Academy
             </Typography>
             <Typography variant="subtitle1" component="p" className="dateRange">
-              December 2020 - Present
+              December 2020 - April 2021
             </Typography>
           </Box>
           <Box mt={2} ml={3}>
