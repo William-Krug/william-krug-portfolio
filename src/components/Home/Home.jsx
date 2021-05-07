@@ -6,7 +6,6 @@ import { Box, Button, Link, makeStyles, Typography } from '@material-ui/core';
 import SaveAltIcon from '@material-ui/icons/SaveAlt';
 
 import resume from '../../william-krug-resume.pdf';
-import william from '../images/william.jpeg';
 
 const drawerWidth = 240;
 

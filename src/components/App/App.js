@@ -125,9 +125,9 @@ function App() {
           <Projects />
         </Route>
 
-        {/* <Route exact path="/skills">
+        <Route exact path="/skills">
           <Skills />
-        </Route> */}
+        </Route>
 
         <Route exact path="/experience">
           <Experience />

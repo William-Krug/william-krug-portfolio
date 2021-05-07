@@ -321,6 +321,41 @@ function Projects() {
               </Box>
             </Box>
           </Grid>
+
+          {/* App Name */}
+          {/* <Grid item xs={6}>
+            <Box mb={10}>
+              <Typography variant="h3" component="h2">
+                App Name
+              </Typography>
+              <Box mt={3} mb={3}>
+                <Typography variant="body1" component="p">
+                  Description
+                </Typography>
+              </Box>
+              <Box mt={3} mb={3}>
+                <Typography variant="body1" component="p">
+                  Technologies Used:
+                </Typography>
+              </Box>
+              <Box mt={3} mb={3}>
+                <Typography variant="body1" component="p">
+                  Dive into the repo on GitHub{' '}
+                  <Link href="" target="_blank" rel="noreferrer" color="secondary">
+                    here
+                  </Link>
+                  .
+                </Typography>
+                <Typography variant="body1" component="p">
+                  See the deployed app{' '}
+                  <Link href="" target="_blank" rel="noreferrer" color="secondary">
+                    here
+                  </Link>
+                  .
+                </Typography>
+              </Box>
+            </Box>
+          </Grid>; */}
         </Grid>
       </Box>
     </main>
@@ -328,42 +363,3 @@ function Projects() {
 }
 
 export default Projects;
-
-{
-  /* App Name */
-}
-{
-  /* <Grid item xs={6}>
-  <Box mb={10}>
-    <Typography variant="h3" component="h2">
-      App Name
-    </Typography>
-    <Box mt={3} mb={3}>
-      <Typography variant="body1" component="p">
-        Description
-      </Typography>
-    </Box>
-    <Box mt={3} mb={3}>
-      <Typography variant="body1" component="p">
-        Technologies Used:
-      </Typography>
-    </Box>
-    <Box mt={3} mb={3}>
-      <Typography variant="body1" component="p">
-        Dive into the repo on GitHub{' '}
-        <Link href="" target="_blank" rel="noreferrer" color="secondary">
-          here
-        </Link>
-        .
-      </Typography>
-      <Typography variant="body1" component="p">
-        See the deployed app{' '}
-        <Link href="" target="_blank" rel="noreferrer" color="secondary">
-          here
-        </Link>
-        .
-      </Typography>
-    </Box>
-  </Box>
-</Grid>; */
-}

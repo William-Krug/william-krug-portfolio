@@ -5,10 +5,6 @@ import React from 'react';
 // import './Education.css';
 import { Box, Link, makeStyles, Typography } from '@material-ui/core';
 
-import prime from '../images/prime-logo.png';
-import ncc from '../images/ncc-logo.jpeg';
-import uti from '../images/uti-logo.jpeg';
-
 // Global variable to Navigation sidebar
 const drawerWidth = 240;
 

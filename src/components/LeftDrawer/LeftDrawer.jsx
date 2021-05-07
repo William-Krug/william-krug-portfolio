@@ -73,7 +73,6 @@ const useStyles = makeStyles((theme) => ({
 function LeftDrawer() {
   const classes = useStyles();
   const history = useHistory();
-  const preventDefault = (event) => event.preventDefault();
 
   const menuItems = [
     {
