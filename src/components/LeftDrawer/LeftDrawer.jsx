@@ -113,6 +113,17 @@ function LeftDrawer() {
     },
   ];
 
+  const socialMedia = [
+    {
+      icon: <GitHubIcon className={classes.clickableIcon} />,
+      link: 'https://github.com/William-Krug',
+    },
+    {
+      icon: <LinkedInIcon className={classes.clickableIcon} />,
+      link: 'https://www.linkedin.com/in/william-krug-67a86ab6/',
+    },
+  ];
+
   return (
     <div className={classes.root}>
       <Drawer
@@ -168,24 +179,18 @@ function LeftDrawer() {
           <Grid container justify="center" alignItems="flex-end">
             <Grid item>
               <Box mt={30}>
-                <Link
-                  href="https://github.com/William-Krug"
-                  target="_blank"
-                  rel="noreferrer"
-                  color="inherit"
-                  onClick={preventDefault}
-                >
-                  <GitHubIcon className={classes.clickableIcon} />
-                </Link>
-                <Link
-                  href="https://www.linkedin.com/in/william-krug-67a86ab6/"
-                  target="_blank"
-                  rel="noreferrer"
-                  color="inherit"
-                  onClick={preventDefault}
-                >
-                  <LinkedInIcon className={classes.clickableIcon} />
-                </Link>
+                {socialMedia.map((item) => {
+                  return (
+                    <Link
+                      href={item.link}
+                      target="_blank"
+                      rel="noreferrer"
+                      color="inherit"
+                    >
+                      {item.icon}
+                    </Link>
+                  );
+                })}
               </Box>
             </Grid>
           </Grid>
