@@ -45,7 +45,7 @@ function Skills() {
       </Box>
       <Box mt={5} mr={20} mb={5} ml={20}>
         <Typography variant="h3" component="h2" gutterBottom>
-          Soft Skills
+          Frame Works
         </Typography>
         <List>
           <ListItem>
@@ -55,7 +55,17 @@ function Skills() {
       </Box>
       <Box mt={5} mr={20} mb={5} ml={20}>
         <Typography variant="h3" component="h2" gutterBottom>
-          Programming Languages
+          Hard Skills
+        </Typography>
+        <List>
+          <ListItem>
+            <ListItemText></ListItemText>
+          </ListItem>
+        </List>
+      </Box>
+      <Box mt={5} mr={20} mb={5} ml={20}>
+        <Typography variant="h3" component="h2" gutterBottom>
+          Soft Skills
         </Typography>
         <List>
           <ListItem>

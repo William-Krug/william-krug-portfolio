@@ -18,6 +18,7 @@ import {
   Typography,
 } from '@material-ui/core';
 
+/* Import Icons */
 import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import AppsIcon from '@material-ui/icons/Apps';
 import CodeIcon from '@material-ui/icons/Code';
@@ -28,6 +29,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import SchoolIcon from '@material-ui/icons/School';
 import WorkIcon from '@material-ui/icons/Work';
 
+/* Import Avatar Photo */
 import headshot from '../images/william-headshot.jpg';
 
 const drawerWidth = 240;
@@ -62,18 +64,22 @@ const useStyles = makeStyles((theme) => ({
     },
     margin: 15,
   },
-  listItem: {
+  navLink: {
     '&:hover': {
       backgroundColor: '#d32f2f',
-      color: '#ffffff',
+      '& $kid': {
+        color: '#ffffff',
+      },
     },
   },
+  kid: {},
 }));
 
 function LeftDrawer() {
   const classes = useStyles();
   const history = useHistory();
 
+  // List of navigation links
   const menuItems = [
     {
       text: 'Home',
@@ -85,11 +91,11 @@ function LeftDrawer() {
       icon: <AppsIcon />,
       path: '/projects',
     },
-    {
-      text: 'Skills',
-      icon: <CodeIcon />,
-      path: '/skills',
-    },
+    // {
+    //   text: 'Skills',
+    //   icon: <CodeIcon />,
+    //   path: '/skills',
+    // },
     {
       text: 'Experience',
       icon: <WorkIcon />,
@@ -112,6 +118,7 @@ function LeftDrawer() {
     },
   ];
 
+  // List of social media links
   const socialMedia = [
     {
       icon: <GitHubIcon className={classes.clickableIcon} />,
@@ -161,13 +168,13 @@ function LeftDrawer() {
           {menuItems.map((item) => {
             return (
               <ListItem
-                className={classes.listItem}
+                className={classes.navLink}
                 button
                 key={item.text}
                 onClick={() => history.push(item.path)}
               >
-                <ListItemIcon>{item.icon}</ListItemIcon>
-                <ListItemText primary={item.text} />
+                <ListItemIcon className={classes.kid}>{item.icon}</ListItemIcon>
+                <ListItemText className={classes.kid} primary={item.text} />
               </ListItem>
             );
           })}
