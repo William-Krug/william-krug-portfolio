@@ -64,7 +64,8 @@ const useStyles = makeStyles((theme) => ({
   },
   listItem: {
     '&:hover': {
-      color: '#d32f2f',
+      backgroundColor: '#d32f2f',
+      color: '#ffffff',
     },
   },
 }));
@@ -110,7 +111,12 @@ function LeftDrawer() {
         {/* Navigation Links */}
         <List>
           {/* Home */}
-          <ListItem button key={'Home'} onClick={() => history.push('/')}>
+          <ListItem
+            className={classes.listItem}
+            button
+            key={'Home'}
+            onClick={() => history.push('/')}
+          >
             <ListItemIcon>
               <HomeIcon />
             </ListItemIcon>
@@ -119,6 +125,7 @@ function LeftDrawer() {
 
           {/* Projects */}
           <ListItem
+            className={classes.listItem}
             button
             key={'Projects'}
             onClick={() => history.push('/projects')}
@@ -131,6 +138,7 @@ function LeftDrawer() {
 
           {/* Skills */}
           {/* <ListItem
+          className={classes.listItem}
             button
             key={'Skills'}
             onClick={() => history.push('/skills')}
@@ -143,6 +151,7 @@ function LeftDrawer() {
 
           {/* Experience */}
           <ListItem
+            className={classes.listItem}
             button
             key={'Experience'}
             onClick={() => history.push('/experience')}
@@ -155,6 +164,7 @@ function LeftDrawer() {
 
           {/* Education */}
           <ListItem
+            className={classes.listItem}
             button
             key={'Education'}
             onClick={() => history.push('/education')}
@@ -166,7 +176,12 @@ function LeftDrawer() {
           </ListItem>
 
           {/* About */}
-          <ListItem button key={'About'} onClick={() => history.push('/about')}>
+          <ListItem
+            className={classes.listItem}
+            button
+            key={'About'}
+            onClick={() => history.push('/about')}
+          >
             <ListItemIcon>
               <InfoIcon />
             </ListItemIcon>
@@ -175,6 +190,7 @@ function LeftDrawer() {
 
           {/* Contact */}
           <ListItem
+            className={classes.listItem}
             button
             key={'Contact'}
             onClick={() => history.push('/contact')}

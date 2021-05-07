@@ -132,15 +132,15 @@ function Projects() {
           <Grid item xs={6}>
             <Box mb={10}>
               <Typography variant="h3" component="h2">
-                This repo was created to practice unit testing and Test Driven
-                Development (TDD) practices. .test.js files were written first
-                to capture normal use cases and then edge cases of bad or
-                missing inputs. Implementation code was then written to handle
-                all test cases.
+                Unit Testing
               </Typography>
               <Box mt={3} mb={3}>
                 <Typography variant="body1" component="p">
-                  Coming Soon
+                  This repo was created to practice unit testing and Test Driven
+                  Development (TDD) practices. .test.js files were written first
+                  to capture normal use cases and then edge cases of bad or
+                  missing inputs. Implementation code was then written to handle
+                  all test cases.
                 </Typography>
               </Box>
               <Box mt={3} mb={3}>
@@ -227,18 +227,6 @@ function Projects() {
                   Dive into the repo on GitHub{' '}
                   <Link
                     href="https://github.com/William-Krug/movie-sagas"
-                    target="_blank"
-                    rel="noreferrer"
-                    color="secondary"
-                  >
-                    here
-                  </Link>
-                  .
-                </Typography>
-                <Typography variant="body1" component="p">
-                  See the deployed app{' '}
-                  <Link
-                    href=""
                     target="_blank"
                     rel="noreferrer"
                     color="secondary"
