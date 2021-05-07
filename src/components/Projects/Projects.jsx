@@ -79,28 +79,31 @@ function Projects() {
           </Grid>
 
           {/* Contrive */}
-          {/* <Grid item xs={6}>
+          <Grid item xs={6}>
             <Box mb={10}>
               <Typography variant="h3" component="h2">
                 Contrive
               </Typography>
               <Box mt={3} mb={3}>
                 <Typography variant="body1" component="p">
-                  Coming Soon
+                  Contrive is an event management software platform that
+                  connects Event Planners with their local Vendors. With
+                  enhanced search features, Planners can find the types of
+                  Vendors they most want to do business with and can easily
+                  connect with them utilizing the messaging feature.
                 </Typography>
               </Box>
               <Box mt={3} mb={3}>
                 <Typography variant="body1" component="p">
                   Technologies Used: React, Redux, Sagas, Node.js, Express.js,
-                  PostgreSQL, Postico, Material-UI, Moment, SweetAlert, and
-                  Charts.js
+                  PostgreSQL, Postico, Material-UI, Socket.io, AWS S3 Buckets
                 </Typography>
               </Box>
               <Box mt={3} mb={3}>
                 <Typography variant="body1" component="p">
                   Dive into the repo on GitHub{' '}
                   <Link
-                    href=""
+                    href="https://github.com/Cullen-Contrive/Contrive"
                     target="_blank"
                     rel="noreferrer"
                     color="secondary"
@@ -112,7 +115,7 @@ function Projects() {
                 <Typography variant="body1" component="p">
                   See the deployed app{' '}
                   <Link
-                    href=""
+                    href="https://contrive.herokuapp.com/"
                     target="_blank"
                     rel="noreferrer"
                     color="secondary"
@@ -123,13 +126,17 @@ function Projects() {
                 </Typography>
               </Box>
             </Box>
-          </Grid> */}
+          </Grid>
 
           {/* Unit Testing */}
-          {/* <Grid item xs={6}>
+          <Grid item xs={6}>
             <Box mb={10}>
               <Typography variant="h3" component="h2">
-                Unit Testing
+                This repo was created to practice unit testing and Test Driven
+                Development (TDD) practices. .test.js files were written first
+                to capture normal use cases and then edge cases of bad or
+                missing inputs. Implementation code was then written to handle
+                all test cases.
               </Typography>
               <Box mt={3} mb={3}>
                 <Typography variant="body1" component="p">
@@ -138,28 +145,14 @@ function Projects() {
               </Box>
               <Box mt={3} mb={3}>
                 <Typography variant="body1" component="p">
-                  Technologies Used: React, Redux, Sagas, Node.js, Express.js,
-                  PostgreSQL, Postico, Material-UI, Moment, SweetAlert, and
-                  Charts.js
+                  Technologies Used: JavaScript, Node, Jest
                 </Typography>
               </Box>
               <Box mt={3} mb={3}>
                 <Typography variant="body1" component="p">
                   Dive into the repo on GitHub{' '}
                   <Link
-                    href=""
-                    target="_blank"
-                    rel="noreferrer"
-                    color="secondary"
-                  >
-                    here
-                  </Link>
-                  .
-                </Typography>
-                <Typography variant="body1" component="p">
-                  See the deployed app{' '}
-                  <Link
-                    href=""
+                    href="https://github.com/William-Krug/javascript-unit-testing"
                     target="_blank"
                     rel="noreferrer"
                     color="secondary"
@@ -170,7 +163,7 @@ function Projects() {
                 </Typography>
               </Box>
             </Box>
-          </Grid> */}
+          </Grid>
 
           {/* SQL To Do List */}
           <Grid item xs={6}>
@@ -347,3 +340,42 @@ function Projects() {
 }
 
 export default Projects;
+
+{
+  /* App Name */
+}
+{
+  /* <Grid item xs={6}>
+  <Box mb={10}>
+    <Typography variant="h3" component="h2">
+      App Name
+    </Typography>
+    <Box mt={3} mb={3}>
+      <Typography variant="body1" component="p">
+        Description
+      </Typography>
+    </Box>
+    <Box mt={3} mb={3}>
+      <Typography variant="body1" component="p">
+        Technologies Used:
+      </Typography>
+    </Box>
+    <Box mt={3} mb={3}>
+      <Typography variant="body1" component="p">
+        Dive into the repo on GitHub{' '}
+        <Link href="" target="_blank" rel="noreferrer" color="secondary">
+          here
+        </Link>
+        .
+      </Typography>
+      <Typography variant="body1" component="p">
+        See the deployed app{' '}
+        <Link href="" target="_blank" rel="noreferrer" color="secondary">
+          here
+        </Link>
+        .
+      </Typography>
+    </Box>
+  </Box>
+</Grid>; */
+}
