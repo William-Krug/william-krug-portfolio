@@ -50,20 +50,6 @@ function Contact() {
               </Grid>
             </Grid>
 
-            {/* Email */}
-            {/* <Box mt={2} mb={2} ml={3}>
-              <Typography variant="body1" component="p">
-                <strong>Email:</strong> william.p.krug@gmail.com
-              </Typography>
-            </Box> */}
-
-            {/* Phone */}
-            {/* <Box mt={2} mb={2} ml={3}>
-              <Typography variant="body1" component="p">
-                <strong>Phone:</strong> +1 (651) 428-5553
-              </Typography>
-            </Box> */}
-
             {/* Location */}
             <Box mt={2} mb={2} ml={3}>
               <Typography variant="body1" component="p">
@@ -81,7 +67,7 @@ function Contact() {
                   rel="noreferrer"
                   color="info"
                 >
-                  https://github.com/William-Krug
+                  github.com/William-Krug
                 </Link>
               </Typography>
             </Box>
@@ -96,7 +82,7 @@ function Contact() {
                   rel="noreferrer"
                   color="info"
                 >
-                  https://www.linkedin.com/in/william-krug-67a86ab6/
+                  linkedin.com/in/william-krug-67a86ab6
                 </Link>
               </Typography>
             </Box>

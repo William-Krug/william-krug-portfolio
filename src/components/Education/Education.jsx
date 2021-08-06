@@ -34,6 +34,41 @@ const useStyles = makeStyles((theme) => ({
 function Education() {
   const classes = useStyles();
 
+  const educationList = [
+    {
+      school: "Prime Digital Academy",
+      course: "Full Stack Software Engineering Certification",
+      datesAttended: "December 2020 - April 2021",
+      description: `Prime is a full stack immersion program that pushes it's students
+                    to learn and grow at an accelerated pace. Experience gained with:
+                    HTML, CSS, JavaScript, jQuery, React, Redux, Node, Express,
+                    PostgreSQL, SQL, Python, Problem Solving, Public Speaking, Project
+                    Scoping, and Teamwork.`,
+      link: "https://primeacademy.io/",
+      linkShown: "primeacademy.io",
+    },
+    {
+      school: "Normandale Community College",
+      course: "Associate of Science in Computer Science",
+      datesAttended: "January 2016 - May 2020",
+      description: `Experience gained with: C, Python, Java, Machine Architecture,
+                    Discrete Structures, Algorithms and Data Structures, Problem
+                    Solving, Public Speaking and Technical Writing.`,
+      link: "https://www.normandale.edu/",
+      linkShown: "normandale.edu",
+    },
+    {
+      school: "Universal Technical Institute (UTI)",
+      course: 'Automotive Technology with Ford Accelerated Credential Training "FACT" Certificate',
+      datesAttended: "September 2003 - December 2005",
+      description: `Gained experience with: Problem Solving, Vehicle Fundamentals,
+                    Electrical Systems, Cooling and Heating Systems, Advanced
+                    Diagnostics, FORD Factory Training, and Audi Factory Training.`,
+      link: "https://start.uti.edu/",
+      linkShown: "start.uti.edu",
+    },
+  ]
+
   return (
     <main className={classes.content}>
       {/* Page Heading */}
@@ -43,116 +78,42 @@ function Education() {
         </Typography>
       </Box>
       <Box mt={5} mr={20} mb={5} ml={20}>
-        {/* Prime Digital Academy */}
-        <Box mb={5}>
-          <Box mt={2} mb={2} ml={3}>
-            <Typography variant="h3" component="h2">
-              Prime Digital Academy
-            </Typography>
-          </Box>
-          <Box mt={2} ml={3}>
-            <Typography variant="body1" component="p">
-              Full Stack Software Engineering Certification
-            </Typography>
-          </Box>
-          <Box mb={2} ml={3}>
-            <Typography variant="subtitle1" component="p" className="dateRange">
-              December 2020 - April 2021
-            </Typography>
-          </Box>
-          <Box mt={2} mr={20} mb={2} ml={3}>
-            <Typography variant="body1" component="p">
-              Prime is a full stack immersion program that pushes it's students
-              to learn and grow at an accelerated pace. Experience gained with:
-              HTML, CSS, JavaScript, jQuery, React, Redux, Node, Express,
-              PostgreSQL, SQL, Python, Problem Solving, Public Speaking, Project
-              Scoping, and Teamwork.
-            </Typography>
-          </Box>
-          <Box mb={2} ml={3}>
-            <Link
-              href="https://primeacademy.io/"
-              target="_blank"
-              rel="noreferrer"
-              color="secondary"
-            >
-              https://primeacademy.io/
-            </Link>
-          </Box>
-        </Box>
-
-        {/* Normandale Community College */}
-        <Box mb={5}>
-          <Box mt={2} mb={2} ml={3}>
-            <Typography variant="h3" component="h2">
-              Normandale Community College
-            </Typography>
-          </Box>
-          <Box mt={2} ml={3}>
-            <Typography variant="body1" component="p">
-              Associate of Science in Computer Science
-            </Typography>
-          </Box>
-          <Box mb={2} ml={3}>
-            <Typography variant="subtitle1" component="p" className="dateRange">
-              January 2016 - May 2020
-            </Typography>
-          </Box>
-          <Box mt={2} mr={20} mb={2} ml={3}>
-            <Typography variant="body1" component="p">
-              Experience gained with: C, Python, Java, Machine Architecture,
-              Discrete Structures, Algorithms and Data Structures, Problem
-              Solving, Public Speaking and Technical Writing.
-            </Typography>
-          </Box>
-          <Box mb={2} ml={3}>
-            <Link
-              href="https://www.normandale.edu/"
-              target="_blank"
-              rel="noreferrer"
-              color="secondary"
-            >
-              https://www.normandale.edu/
-            </Link>
-          </Box>
-        </Box>
-
-        {/* Universal Technical Institute */}
-        <Box mb={5}>
-          <Box mt={2} mb={2} ml={3}>
-            <Typography variant="h3" component="h2">
-              Universal Technical Institute (UTI)
-            </Typography>
-          </Box>
-          <Box mt={2} ml={3}>
-            <Typography variant="body1" component="p">
-              Automotive Technology with Ford Accelerated Credential Training
-              "FACT" Certificate
-            </Typography>
-          </Box>
-          <Box mb={2} ml={3}>
-            <Typography variant="subtitle1" component="p" className="dateRange">
-              September 2003 - December 2005
-            </Typography>
-          </Box>
-          <Box mt={2} mr={20} mb={2} ml={3}>
-            <Typography variant="body1" component="p">
-              Gained experience with: Problem Solving, Vehicle Fundamentals,
-              Electrical Systems, Cooling and Heating Systems, Advanced
-              Diagnostics, FORD Factory Training, and Audi Factory Training.
-            </Typography>
-          </Box>
-          <Box mb={2} ml={3}>
-            <Link
-              href="https://start.uti.edu/"
-              target="_blank"
-              rel="noreferrer"
-              color="secondary"
-            >
-              https://start.uti.edu/
-            </Link>
-          </Box>
-        </Box>
+        {educationList.map((program) => {
+          return (
+            <Box mb={5}>
+              <Box mt={2} mb={2} ml={3}>
+                <Typography variant="h3" component="h2">
+                  {program.school}
+                </Typography>
+              </Box>
+              <Box mt={2} ml={3}>
+                <Typography variant="body1" component="p">
+                  {program.course}
+                </Typography>
+              </Box>
+              <Box mb={2} ml={3}>
+                <Typography variant="subtitle1" component="p" className="dateRange">
+                  {program.datesAttended}
+                </Typography>
+              </Box>
+              <Box mt={2} mr={20} mb={2} ml={3}>
+                <Typography variant="body1" component="p">
+                  {program.description}
+                </Typography>
+              </Box>
+              <Box mb={2} ml={3}>
+                <Link
+                  href={program.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  color="secondary"
+                >
+                  {program.linkShown}
+                </Link>
+              </Box>
+            </Box>
+          )
+        })}
       </Box>
     </main>
   );
