@@ -36,6 +36,54 @@ function Experience() {
         </Typography>
       </Box>
       <Box mt={5} mr={20} mb={5} ml={20}>
+        {/* LAB651 */}
+        <Box mb={7}>
+          <Box mt={2} mb={2} ml={3}>
+            <Typography variant="h3" component="h2">
+              LAB651
+            </Typography>
+            <Typography variant="subtitle1" component="p" className="dateRange">
+              May 2021 - Current
+            </Typography>
+          </Box>
+          <Box mt={2} mr={20} ml={3}>
+            <Typography variant="body1" component="p" className="jobTitle">
+              Full Stack Software Developer
+            </Typography>
+            <List>
+              <ListItem>
+                <ListItemText>
+                  Collaborated with other developers to create features matching customer's requirements.
+                </ListItemText>
+              </ListItem>
+              <ListItem>
+                <ListItemText>
+                  Focused on front end design and functionality.
+                </ListItemText>
+              </ListItem>
+              <ListItem>
+                <ListItemText>
+                  Acquired additional skills learning a new language and framework.
+                </ListItemText>
+              </ListItem>
+              <ListItem>
+                <ListItemText>
+                  Fought in full armor with live steel on the Demonstration
+                  team.
+                </ListItemText>
+              </ListItem>
+            </List>
+            <Link
+              href="https://lab651.com/"
+              target="_blank"
+              rel="noreferrer"
+              color="secondary"
+            >
+              lab651.com
+            </Link>
+          </Box>
+        </Box>
+
         {/* Prime Digital Academy */}
         <Box mb={7}>
           <Box mt={2} mb={2} ml={3}>
@@ -121,7 +169,7 @@ function Experience() {
               rel="noreferrer"
               color="secondary"
             >
-              https://primeacademy.io/
+              primeacademy.io
             </Link>
           </Box>
         </Box>
@@ -227,7 +275,7 @@ function Experience() {
               rel="noreferrer"
               color="secondary"
             >
-              https://www.identifix.com/
+              identifix.com
             </Link>
           </Box>
         </Box>
@@ -302,7 +350,7 @@ function Experience() {
               rel="noreferrer"
               color="secondary"
             >
-              https://www.flowauto.com/
+              flowauto.com
             </Link>
           </Box>
         </Box>
@@ -392,7 +440,7 @@ function Experience() {
               rel="noreferrer"
               color="secondary"
             >
-              https://www.chilis.com/
+              chilis.com
             </Link>
           </Box>
         </Box>
@@ -422,7 +470,7 @@ function Experience() {
               rel="noreferrer"
               color="secondary"
             >
-              https://weinhagen.com/
+              weinhagen.com
             </Link>
           </Box>
         </Box>
@@ -461,7 +509,7 @@ function Experience() {
               rel="noreferrer"
               color="secondary"
             >
-              https://www.dairyqueen.com/
+              dairyqueen.com
             </Link>
           </Box>
         </Box>
