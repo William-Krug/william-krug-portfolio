@@ -95,7 +95,7 @@ function Projects() {
       github: "https://github.com/William-Krug/Valour-Enterprises",
       deployed: "",
     },
-  ]
+  ];
 
   return (
     <main className={classes.content}>

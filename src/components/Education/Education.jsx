@@ -1,6 +1,9 @@
 /* Import Libraries */
 import React from 'react';
 
+/* Import Education List */
+// const educationList = require('./EducationList');
+
 /* Import Styling */
 // import './Education.css';
 import { Box, Link, makeStyles, Typography } from '@material-ui/core';
@@ -67,7 +70,7 @@ function Education() {
       link: "https://start.uti.edu/",
       linkShown: "start.uti.edu",
     },
-  ]
+  ];
 
   return (
     <main className={classes.content}>
