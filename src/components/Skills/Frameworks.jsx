@@ -1,1 +1,6 @@
-export const frameworks = [];
+export const frameworks = [
+  {
+    framework: '',
+    icon: '',
+  },
+];

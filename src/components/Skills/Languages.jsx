@@ -1,9 +1,22 @@
 export const languages = [
-  'JavaScript',
-  'Ruby',
-  'Java',
-  'C',
-  'Python',
-  'HTML',
-  'CSS',
+  {
+    language: 'JavaScript',
+    icon: '',
+  },
+  {
+    language: 'Ruby',
+    icon: '',
+  },
+  {
+    language: 'Java',
+    icon: '',
+  },
+  {
+    language: 'Python',
+    icon: '',
+  },
+  {
+    language: 'C',
+    icon: '',
+  },
 ];

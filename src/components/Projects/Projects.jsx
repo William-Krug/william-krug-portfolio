@@ -51,14 +51,14 @@ function Projects() {
                   </Box>
                   <Box mt={3} mb={3}>
                     <Typography variant="body1" component="p">
-                      Dive into the repo on GitHub{' '}
+                      Dive into the repo on{' '}
                       <Link
                         href={project.github}
                         target="_blank"
                         rel="noreferrer"
                         color="secondary"
                       >
-                        here
+                        GitHub
                       </Link>
                       .
                     </Typography>
@@ -67,14 +67,14 @@ function Projects() {
                       component="p"
                       class={project.deployed === '' ? 'hidden' : ''}
                     >
-                      See the deployed app{' '}
+                      See the deployed{' '}
                       <Link
                         href={project.deployed}
                         target="_blank"
                         rel="noreferrer"
                         color="secondary"
                       >
-                        here
+                        app
                       </Link>
                       .
                     </Typography>
