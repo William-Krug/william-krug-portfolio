@@ -1,6 +1,11 @@
 /* Import Libraries */
 import React from 'react';
 
+/* Import Skills Lists */
+import { languages } from './Languages';
+import { frameworks } from './Frameworks';
+import { softSkills } from './SoftSkills';
+
 /* Import Styling */
 import {
   Box,

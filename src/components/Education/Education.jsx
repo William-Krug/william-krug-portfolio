@@ -5,7 +5,7 @@ import React from 'react';
 import { educationList } from './EducationList';
 
 /* Import Styling */
-// import './Education.css';
+import './Education.css';
 import { Box, Link, makeStyles, Typography } from '@material-ui/core';
 
 // Global variable to Navigation sidebar

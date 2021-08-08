@@ -1,0 +1,212 @@
+export const experienceList = [
+  {
+    company: 'LAB651',
+    totalDateRange: 'May 2021 - Current',
+    jobTitle1: 'Full Stack Software Developer',
+    jobTitle1DateRange: '',
+    jobTitle1Bullet1: `Collaborated with other developers to create features matching
+                       customer's requirements.`,
+    jobTitle1Bullet2: `Focused on front end design and functionality.`,
+    jobTitle1Bullet3: `Acquired additional skills learning a new language and framework.`,
+    jobTitle1Bullet4: ``,
+    jobTitle2: '',
+    jobTitle2DateRange: '',
+    jobTitle2Bullet1: ``,
+    jobTitle2Bullet2: ``,
+    jobTitle2Bullet3: ``,
+    jobTitle3: '',
+    jobTitle3DateRange: '',
+    jobTitle3Bullet1: ``,
+    jobTitle3Bullet2: ``,
+    jobTitle3Bullet3: ``,
+    websiteLink: 'https://lab651.com/',
+    displayedLink: 'lab651.com',
+  },
+  {
+    company: 'Prime Digital Academy',
+    totalDateRange: 'December 2020 - April 2021',
+    jobTitle1: 'Group Project: Contrive',
+    jobTitle1DateRange: '',
+    jobTitle1Bullet1: `Contrive is a DIY Party Planner application that sets itself
+                       apart by suggesting vendors to planners and allowing
+                       planners to filter search results based on unique facts
+                       about the vendors such as female owned, bipoc owned, small
+                       business, and more.`,
+    jobTitle1Bullet2: `Working with fellow Prime students, I led the group as both
+                       developer and Project Manager to build the application in a
+                       timely and efficient manner for an MVP product. Vendors can
+                       register to the site and fill out their profile to be
+                       searched by planners as part of the Contrive network.
+                       Planers can create events and review suggested vendors from
+                       the app. If the planner prefers, they can search the vendor
+                       network for help that meets their preferences. To facilitate
+                       connecting with vendors, a chat feature is included in the
+                       app.`,
+    jobTitle1Bullet3: `Built with JavaScript, React, Redux, Node, Express, Moment,
+                       and Material-UI.`,
+    jobTitle1Bullet4: ``,
+    jobTitle2: 'Solo Project: My Running Journal',
+    jobTitle2DateRange: '',
+    jobTitle2Bullet1: `App was created to digitally track runs and provide metrics
+                       on average distance, time, speed, and pace.`,
+    jobTitle2Bullet2: `Users log a run by entering a distance and time and the app
+                       automatically provides their speed and pace Users can also
+                       look at a timeline of their runs to see, and gauge, their
+                       progression.`,
+    jobTitle2Bullet3: `Built with JavaScript, React, Redux, Node, Express, Moment,
+                       Material-UI, SweetAlert, and Charts.js.`,
+    jobTitle3: 'Full Stack Software Development Student',
+    jobTitle3DateRange: '',
+    jobTitle3Bullet1: ``,
+    jobTitle3Bullet2: ``,
+    jobTitle3Bullet3: ``,
+    websiteLink: 'https://primeacademy.io/',
+    displayedLink: 'primeacademy.io',
+  },
+  {
+    company: 'Solera Holding / Identifix',
+    totalDateRange: 'June 2009 - September 2020',
+    jobTitle1: 'European Carline Specialist',
+    jobTitle1DateRange: 'June 2009 - June 2015',
+    jobTitle1Bullet1: `Communicated with automotive technicians via telephone, email,
+                       and fax.`,
+    jobTitle1Bullet2: `Diagnosed vehicle concerns and recommended solutions on parts
+                       to replace.`,
+    jobTitle1Bullet3: `Authored diagnostic procedures for Direct-Hit website.`,
+    jobTitle1Bullet4: ``,
+    jobTitle2: 'Data Author 2',
+    jobTitle2DateRange: 'June 2015 - June 2018',
+    jobTitle2Bullet1: `Performed annual special independent projects for competitive
+                       analysis and Product Team improvement suggestions.`,
+    jobTitle2Bullet2: `Classified repair manual content and defined automotive
+                       applications.`,
+    jobTitle2Bullet3: ``,
+    jobTitle3: 'Project Manager',
+    jobTitle3DateRange: 'June 2018 - September 2020',
+    jobTitle3Bullet1: `Trained Subject Matter Experts (SMEs) on classification of
+                       repair manual documents and vehicle application to increase
+                       content throughput.`,
+    jobTitle3Bullet2: `Utilized in-house applications to connect automotive
+                       specification and in-house developer software for use on
+                       Direct-Hit website.`,
+    jobTitle3Bullet3: `Revamped new account set up process for a clear understanding
+                       between all involved departments and streamlined completion.`,
+    websiteLink: 'https://www.identifix.com/',
+    displayedLink: 'identifix.com',
+  },
+  {
+    company: 'European Medieval Arts of Arms, llc',
+    totalDateRange: 'June 2006 - May 2009',
+    jobTitle1: 'Instructor / Business Partner',
+    jobTitle1DateRange: '',
+    jobTitle1Bullet1: `Designed and updated new curriculum with fellow owners.`,
+    jobTitle1Bullet2: `Collaborated with other instructors to produce training
+                       materials for the academy.`,
+    jobTitle1Bullet3: `Led training classes for students ranging from ages 7 to 65.`,
+    jobTitle1Bullet4: `Fought in full armor with live steel on the Demonstration team.`,
+    jobTitle2: '',
+    jobTitle2DateRange: '',
+    jobTitle2Bullet1: ``,
+    jobTitle2Bullet2: ``,
+    jobTitle2Bullet3: ``,
+    jobTitle3: '',
+    jobTitle3DateRange: '',
+    jobTitle3Bullet1: ``,
+    jobTitle3Bullet2: ``,
+    jobTitle3Bullet3: ``,
+    websiteLink: '',
+    displayedLink: '',
+  },
+  {
+    company: 'Flow Automotive Companies',
+    totalDateRange: 'August 2005 - May 2009',
+    jobTitle1: 'Certified Audi Expert Level Technician',
+    jobTitle1DateRange: '',
+    jobTitle1Bullet1: `Diagnosed customer concerns using prior experience, factory
+                       repair manuals, and wiring diagrams for a fast and efficient
+                       service experience.`,
+    jobTitle1Bullet2: ``,
+    jobTitle1Bullet3: ``,
+    jobTitle1Bullet4: ``,
+    jobTitle2: '',
+    jobTitle2DateRange: '',
+    jobTitle2Bullet1: ``,
+    jobTitle2Bullet2: ``,
+    jobTitle2Bullet3: ``,
+    jobTitle3: '',
+    jobTitle3DateRange: '',
+    jobTitle3Bullet1: ``,
+    jobTitle3Bullet2: ``,
+    jobTitle3Bullet3: ``,
+    websiteLink: 'https://www.flowauto.com/',
+    displayedLink: 'flowauto.com',
+  },
+  {
+    company: `Chili's Grill & Bar`,
+    totalDateRange: 'August 2003 - June 2005',
+    jobTitle1: 'Host',
+    jobTitle1DateRange: 'August 2003 - February 2004',
+    jobTitle1Bullet1: `Approximated wait times and set realistic expectations for
+                       guest dining experience.`,
+    jobTitle1Bullet2: `Addressed guest concerns and needs for an enjoyable meal.`,
+    jobTitle1Bullet3: ``,
+    jobTitle1Bullet4: ``,
+    jobTitle2: 'To-Go Server',
+    jobTitle2DateRange: 'February 2004 - August 2004',
+    jobTitle2Bullet1: `Spoke with customers over the phone and verified requested orders.`,
+    jobTitle2Bullet2: `Collaborated with cooks and line supervisors to prepare orders.`,
+    jobTitle2Bullet3: ``,
+    jobTitle3: 'Server / Trainer',
+    jobTitle3DateRange: 'August 2004 - June 2005',
+    jobTitle3Bullet1: `Trained new servers.`,
+    jobTitle3Bullet2: `Spoke with and confirmed guest dining request for their
+                       expected meal.`,
+    jobTitle3Bullet3: `Mediated resolutions with upset diners.`,
+    websiteLink: 'https://www.chilis.com/',
+    displayedLink: 'chilis.com',
+  },
+  {
+    company: 'Weinhagen Tire Company',
+    totalDateRange: 'June 2002 - August 2003',
+    jobTitle1: 'General Service Technician',
+    jobTitle1DateRange: '',
+    jobTitle1Bullet1: `Maintained customer vehicles.`,
+    jobTitle1Bullet2: ``,
+    jobTitle1Bullet3: ``,
+    jobTitle1Bullet4: ``,
+    jobTitle2: '',
+    jobTitle2DateRange: '',
+    jobTitle2Bullet1: ``,
+    jobTitle2Bullet2: ``,
+    jobTitle2Bullet3: ``,
+    jobTitle3: '',
+    jobTitle3DateRange: '',
+    jobTitle3Bullet1: ``,
+    jobTitle3Bullet2: ``,
+    jobTitle3Bullet3: ``,
+    websiteLink: 'https://weinhagen.com/',
+    displayedLink: 'weinhagen.com',
+  },
+  {
+    company: 'Dairy Queen',
+    totalDateRange: 'June 2000 - June 2002',
+    jobTitle1: 'Shift Manager',
+    jobTitle1DateRange: '',
+    jobTitle1Bullet1: `Delegated nightly closing duties for an efficient end of night.`,
+    jobTitle1Bullet2: `Tabulated closing sales counts.`,
+    jobTitle1Bullet3: `Constructed customer orders.`,
+    jobTitle1Bullet4: ``,
+    jobTitle2: '',
+    jobTitle2DateRange: '',
+    jobTitle2Bullet1: ``,
+    jobTitle2Bullet2: ``,
+    jobTitle2Bullet3: ``,
+    jobTitle3: '',
+    jobTitle3DateRange: '',
+    jobTitle3Bullet1: ``,
+    jobTitle3Bullet2: ``,
+    jobTitle3Bullet3: ``,
+    websiteLink: 'https://www.dairyqueen.com/',
+    displayedLink: 'dairyqueen.com',
+  },
+];
