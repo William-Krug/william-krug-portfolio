@@ -42,6 +42,7 @@ function Experience() {
         {experienceList.map((job) => {
           return (
             <Box mb={7}>
+              {/* Company Name & Employment Year Range */}
               <Box mt={2} mb={2} ml={3}>
                 <Typography variant="h3" component="h2">
                   {job.company}
@@ -49,89 +50,130 @@ function Experience() {
                 <Typography
                   variant="subtitle1"
                   component="p"
-                  className="dateRange"
+                  className="date-range"
                 >
                   {job.totalDateRange}
                 </Typography>
               </Box>
 
-              {/* Third Role/Position at Company */}
-              <Box mt={2} mr={20} ml={3}>
-                <Typography variant="body1" component="p" className="jobTitle">
-                  {job.jobTitle3}
+              {/* Third Role/Position */}
+              <Box
+                mt={2}
+                mr={20}
+                ml={3}
+                className={job.thirdPosition.title === '' ? 'hidden' : ''}
+              >
+                <Typography variant="body1" component="p" className="job-title">
+                  {job.thirdPosition.title}
                 </Typography>
                 <Typography
                   variant="subtitle1"
                   component="p"
-                  className="dateRange"
+                  className={
+                    job.thirdPosition.dateRange === '' ? 'hiden' : 'date-range'
+                  }
                 >
-                  {job.jobTitle3DateRange}
+                  {job.thirdPosition.dateRange}
                 </Typography>
                 <List>
                   <ListItem>
-                    <ListItemText>{job.jobTitle3Bullet1}</ListItemText>
+                    <ListItemText>{job.thirdPosition.bullet1}</ListItemText>
                   </ListItem>
-                  <ListItem>
-                    <ListItemText>{job.jobTitle3Bullet2}</ListItemText>
+                  <ListItem
+                    className={job.thirdPosition.bullet2 === '' ? 'hidden' : ''}
+                  >
+                    <ListItemText>{job.thirdPosition.bullet2}</ListItemText>
                   </ListItem>
-                  <ListItem>
-                    <ListItemText>{job.jobTitle3Bullet3}</ListItemText>
+                  <ListItem
+                    className={job.thirdPosition.bullet3 === '' ? 'hidden' : ''}
+                  >
+                    <ListItemText>{job.thirdPosition.bullet3}</ListItemText>
                   </ListItem>
                 </List>
               </Box>
 
-              {/* Second Role/Position at Company */}
-              <Box mt={2} mr={20} ml={3}>
-                <Typography variant="body1" component="p" className="jobTitle">
-                  {job.jobTitle2}
+              {/* Second Role/Position */}
+              <Box
+                mt={2}
+                mr={20}
+                ml={3}
+                className={job.secondPosition.title === '' ? 'hidden' : ''}
+              >
+                <Typography variant="body1" component="p" className="job-title">
+                  {job.secondPosition.title}
                 </Typography>
                 <Typography
                   variant="subtitle1"
                   component="p"
-                  className="dateRange"
+                  className={
+                    job.secondPosition.dateRange === '' ? 'hiden' : 'date-range'
+                  }
                 >
-                  {job.jobTitle2DateRange}
+                  {job.secondPosition.dateRange}
                 </Typography>
                 <List>
                   <ListItem>
-                    <ListItemText>{job.jobTitle2Bullet1}</ListItemText>
+                    <ListItemText>{job.secondPosition.bullet1}</ListItemText>
                   </ListItem>
-                  <ListItem>
-                    <ListItemText>{job.jobTitle2Bullet2}</ListItemText>
+                  <ListItem
+                    className={
+                      job.secondPosition.bullet2 === '' ? 'hidden' : ''
+                    }
+                  >
+                    <ListItemText>{job.secondPosition.bullet2}</ListItemText>
                   </ListItem>
-                  <ListItem>
-                    <ListItemText>{job.jobTitle2Bullet3}</ListItemText>
+                  <ListItem
+                    className={
+                      job.secondPosition.bullet3 === '' ? 'hidden' : ''
+                    }
+                  >
+                    <ListItemText>{job.secondPosition.bullet3}</ListItemText>
                   </ListItem>
                 </List>
               </Box>
 
-              {/* First Role/Position at Company */}
+              {/* First Role/Position */}
               <Box mt={2} mr={20} ml={3}>
-                <Typography variant="body1" component="p" className="jobTitle">
-                  {job.jobTitle1}
+                <Typography variant="body1" component="p" className="job-title">
+                  {job.firstPosition.title}
                 </Typography>
                 <Typography
                   variant="subtitle1"
                   component="p"
-                  className="dateRange"
+                  className={
+                    job.firstPosition.dateRange === '' ? 'hiden' : 'date-range'
+                  }
                 >
-                  {job.jobTitle1DateRange}
+                  {job.firstPosition.dateRange}
                 </Typography>
                 <List>
                   <ListItem>
-                    <ListItemText>{job.jobTitle1Bullet1}</ListItemText>
+                    <ListItemText>{job.firstPosition.bullet1}</ListItemText>
                   </ListItem>
-                  <ListItem>
-                    <ListItemText>{job.jobTitle1Bullet2}</ListItemText>
+                  <ListItem
+                    className={job.firstPosition.bullet2 === '' ? 'hidden' : ''}
+                  >
+                    <ListItemText>{job.firstPosition.bullet2}</ListItemText>
                   </ListItem>
-                  <ListItem>
-                    <ListItemText>{job.jobTitle1Bullet3}</ListItemText>
+                  <ListItem
+                    className={job.firstPosition.bullet3 === '' ? 'hidden' : ''}
+                  >
+                    <ListItemText>{job.firstPosition.bullet3}</ListItemText>
                   </ListItem>
-                  <ListItem>
-                    <ListItemText>{job.jobTitle1Bullet4}</ListItemText>
+                  <ListItem
+                    className={job.firstPosition.bullet4 === '' ? 'hidden' : ''}
+                  >
+                    <ListItemText>{job.firstPosition.bullet4}</ListItemText>
                   </ListItem>
                 </List>
+              </Box>
 
+              {/* Web Link */}
+              <Box
+                mr={20}
+                ml={3}
+                className={job.websiteLink === '' ? 'hidden' : ''}
+              >
                 <Link
                   href={job.websiteLink}
                   target="_blank"
@@ -151,7 +193,11 @@ function Experience() {
             <Typography variant="h3" component="h2">
               LAB651
             </Typography>
-            <Typography variant="subtitle1" component="p" className="dateRange">
+            <Typography
+              variant="subtitle1"
+              component="p"
+              className="date-range"
+            >
               May 2021 - Current
             </Typography>
           </Box>
@@ -195,7 +241,11 @@ function Experience() {
             <Typography variant="h3" component="h2">
               Prime Digital Academy
             </Typography>
-            <Typography variant="subtitle1" component="p" className="dateRange">
+            <Typography
+              variant="subtitle1"
+              component="p"
+              className="date-range"
+            >
               December 2020 - April 2021
             </Typography>
           </Box>
@@ -285,7 +335,11 @@ function Experience() {
             <Typography variant="h3" component="h2">
               Solera Holding / Identifix
             </Typography>
-            <Typography variant="subtitle1" component="p" className="dateRange">
+            <Typography
+              variant="subtitle1"
+              component="p"
+              className="date-range"
+            >
               June 2009 - September 2020
             </Typography>
           </Box>
@@ -295,7 +349,11 @@ function Experience() {
             <Typography variant="body1" component="p" className="jobTitle">
               Project Manager
             </Typography>
-            <Typography variant="subtitle1" component="p" className="dateRange">
+            <Typography
+              variant="subtitle1"
+              component="p"
+              className="date-range"
+            >
               June 2018 - September 2020
             </Typography>
             <List>
@@ -327,7 +385,11 @@ function Experience() {
             <Typography variant="body1" component="p" className="jobTitle">
               Data Author 2
             </Typography>
-            <Typography variant="subtitle1" component="p" className="dateRange">
+            <Typography
+              variant="subtitle1"
+              component="p"
+              className="date-range"
+            >
               June 2015 - June 2018
             </Typography>
             <List>
@@ -351,7 +413,11 @@ function Experience() {
             <Typography variant="body1" component="p" className="jobTitle">
               European Carline Specialist
             </Typography>
-            <Typography variant="subtitle1" component="p" className="dateRange">
+            <Typography
+              variant="subtitle1"
+              component="p"
+              className="date-range"
+            >
               June 2009 - June 2015
             </Typography>
             <List>
@@ -391,7 +457,11 @@ function Experience() {
             <Typography variant="h3" component="h2">
               European Medieval Arts of Arms, llc
             </Typography>
-            <Typography variant="subtitle1" component="p" className="dateRange">
+            <Typography
+              variant="subtitle1"
+              component="p"
+              className="date-range"
+            >
               June 2006 - May 2009
             </Typography>
           </Box>
@@ -432,7 +502,11 @@ function Experience() {
             <Typography variant="h3" component="h2">
               Flow Automotive Companies
             </Typography>
-            <Typography variant="subtitle1" component="p" className="dateRange">
+            <Typography
+              variant="subtitle1"
+              component="p"
+              className="date-range"
+            >
               August 2005 - May 2009
             </Typography>
           </Box>
@@ -466,7 +540,11 @@ function Experience() {
             <Typography variant="h3" component="h2">
               Chili's Grill & Bar
             </Typography>
-            <Typography variant="subtitle1" component="p" className="dateRange">
+            <Typography
+              variant="subtitle1"
+              component="p"
+              className="date-range"
+            >
               August 2003 - June 2005
             </Typography>
           </Box>
@@ -475,7 +553,11 @@ function Experience() {
             <Typography variant="body1" component="p" className="jobTitle">
               Server / Trainer
             </Typography>
-            <Typography variant="subtitle1" component="p" className="dateRange">
+            <Typography
+              variant="subtitle1"
+              component="p"
+              className="date-range"
+            >
               August 2004 - June 2005
             </Typography>
             <List>
@@ -500,7 +582,11 @@ function Experience() {
             <Typography variant="body1" component="p" className="jobTitle">
               To-Go Server
             </Typography>
-            <Typography variant="subtitle1" component="p" className="dateRange">
+            <Typography
+              variant="subtitle1"
+              component="p"
+              className="date-range"
+            >
               February 2004 - August 2004
             </Typography>
             <List>
@@ -523,7 +609,11 @@ function Experience() {
             <Typography variant="body1" component="p" className="jobTitle">
               Host
             </Typography>
-            <Typography variant="subtitle1" component="p" className="dateRange">
+            <Typography
+              variant="subtitle1"
+              component="p"
+              className="date-range"
+            >
               August 2003 - February 2004
             </Typography>
             <List>
@@ -556,7 +646,11 @@ function Experience() {
             <Typography variant="h3" component="h2">
               Weinhagen Tire Company
             </Typography>
-            <Typography variant="subtitle1" component="p" className="dateRange">
+            <Typography
+              variant="subtitle1"
+              component="p"
+              className="date-range"
+            >
               June 2002 - August 2003
             </Typography>
           </Box>
@@ -586,7 +680,11 @@ function Experience() {
             <Typography variant="h3" component="h2">
               Dairy Queen
             </Typography>
-            <Typography variant="subtitle1" component="p" className="dateRange">
+            <Typography
+              variant="subtitle1"
+              component="p"
+              className="date-range"
+            >
               June 2000 - June 2002
             </Typography>
           </Box>

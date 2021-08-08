@@ -1,11 +1,15 @@
-.jobTitle {
+.job-title {
   font-weight: bold;
 }
 
-.yearRange {
+.year-range {
   font-style: italic;
 }
 
 .hidden {
   display: none;
+}
+
+.web-link {
+  text-decoration: none;
 }
