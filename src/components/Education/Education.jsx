@@ -2,7 +2,7 @@
 import React from 'react';
 
 /* Import Education List */
-// const educationList = require('./EducationList');
+import { educationList } from './EducationList';
 
 /* Import Styling */
 // import './Education.css';
@@ -37,41 +37,6 @@ const useStyles = makeStyles((theme) => ({
 function Education() {
   const classes = useStyles();
 
-  const educationList = [
-    {
-      school: "Prime Digital Academy",
-      course: "Full Stack Software Engineering Certification",
-      datesAttended: "December 2020 - April 2021",
-      description: `Prime is a full stack immersion program that pushes it's students
-                    to learn and grow at an accelerated pace. Experience gained with:
-                    HTML, CSS, JavaScript, jQuery, React, Redux, Node, Express,
-                    PostgreSQL, SQL, Python, Problem Solving, Public Speaking, Project
-                    Scoping, and Teamwork.`,
-      link: "https://primeacademy.io/",
-      linkShown: "primeacademy.io",
-    },
-    {
-      school: "Normandale Community College",
-      course: "Associate of Science in Computer Science",
-      datesAttended: "January 2016 - May 2020",
-      description: `Experience gained with: C, Python, Java, Machine Architecture,
-                    Discrete Structures, Algorithms and Data Structures, Problem
-                    Solving, Public Speaking and Technical Writing.`,
-      link: "https://www.normandale.edu/",
-      linkShown: "normandale.edu",
-    },
-    {
-      school: "Universal Technical Institute (UTI)",
-      course: 'Automotive Technology with Ford Accelerated Credential Training "FACT" Certificate',
-      datesAttended: "September 2003 - December 2005",
-      description: `Gained experience with: Problem Solving, Vehicle Fundamentals,
-                    Electrical Systems, Cooling and Heating Systems, Advanced
-                    Diagnostics, FORD Factory Training, and Audi Factory Training.`,
-      link: "https://start.uti.edu/",
-      linkShown: "start.uti.edu",
-    },
-  ];
-
   return (
     <main className={classes.content}>
       {/* Page Heading */}
@@ -95,7 +60,11 @@ function Education() {
                 </Typography>
               </Box>
               <Box mb={2} ml={3}>
-                <Typography variant="subtitle1" component="p" className="dateRange">
+                <Typography
+                  variant="subtitle1"
+                  component="p"
+                  className="dateRange"
+                >
                   {program.datesAttended}
                 </Typography>
               </Box>
@@ -115,7 +84,7 @@ function Education() {
                 </Link>
               </Box>
             </Box>
-          )
+          );
         })}
       </Box>
     </main>
