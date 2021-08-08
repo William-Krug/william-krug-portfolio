@@ -1,1 +1,9 @@
-export const languages = [];
+export const languages = [
+  'JavaScript',
+  'Ruby',
+  'Java',
+  'C',
+  'Python',
+  'HTML',
+  'CSS',
+];
