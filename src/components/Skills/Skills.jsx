@@ -38,14 +38,6 @@ function Skills() {
           Skills
         </Typography>
       </Box>
-      {hardSkills.map((skill) => {
-        return (
-          <>
-            <p>{skill.name}</p>
-            <image src={skill.icon} atl={skill.name} />
-          </>
-        );
-      })}
 
       {/* Hard Skills */}
       <Box mt={5} mr={20} mb={5} ml={20}>
