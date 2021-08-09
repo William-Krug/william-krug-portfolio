@@ -64,7 +64,7 @@ function Experience() {
                 className={job.thirdPosition.title === '' ? 'hidden' : ''}
               >
                 <Typography variant="body1" component="p" className="job-title">
-                  {job.thirdPosition.title}
+                  <strong>{job.thirdPosition.title}</strong>
                 </Typography>
                 <Typography
                   variant="subtitle1"
@@ -102,7 +102,7 @@ function Experience() {
                 className={job.secondPosition.title === '' ? 'hidden' : ''}
               >
                 <Typography variant="body1" component="p" className="job-title">
-                  {job.secondPosition.title}
+                  <strong>{job.secondPosition.title}</strong>
                 </Typography>
                 <Typography
                   variant="subtitle1"
@@ -137,7 +137,7 @@ function Experience() {
               {/* First Role/Position */}
               <Box mt={2} mr={20} ml={3}>
                 <Typography variant="body1" component="p" className="job-title">
-                  {job.firstPosition.title}
+                  <strong>{job.firstPosition.title}</strong>
                 </Typography>
                 <Typography
                   variant="subtitle1"

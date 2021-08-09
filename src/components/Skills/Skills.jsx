@@ -2,8 +2,7 @@
 import React from 'react';
 
 /* Import Skills Lists */
-import { languages } from './Languages';
-import { frameworks } from './Frameworks';
+import { hardSkills } from './HardSkills';
 import { softSkills } from './SoftSkills';
 
 /* Import Styling */
@@ -11,6 +10,7 @@ import {
   Box,
   List,
   ListItem,
+  ListItemIcon,
   ListItemText,
   makeStyles,
   Typography,
@@ -38,44 +38,44 @@ function Skills() {
           Skills
         </Typography>
       </Box>
-      <Box mt={5} mr={20} mb={5} ml={20}>
-        <Typography variant="h3" component="h2" gutterBottom>
-          Programming Languages
-        </Typography>
-        <List>
-          <ListItem>
-            <ListItemText></ListItemText>
-          </ListItem>
-        </List>
-      </Box>
-      <Box mt={5} mr={20} mb={5} ml={20}>
-        <Typography variant="h3" component="h2" gutterBottom>
-          Frame Works
-        </Typography>
-        <List>
-          <ListItem>
-            <ListItemText></ListItemText>
-          </ListItem>
-        </List>
-      </Box>
+      {hardSkills.map((skill) => {
+        return (
+          <>
+            <p>{skill.name}</p>
+            <image src={skill.icon} atl={skill.name} />
+          </>
+        );
+      })}
+
+      {/* Hard Skills */}
       <Box mt={5} mr={20} mb={5} ml={20}>
         <Typography variant="h3" component="h2" gutterBottom>
           Hard Skills
         </Typography>
         <List>
-          <ListItem>
-            <ListItemText></ListItemText>
-          </ListItem>
+          {hardSkills.map((skill) => {
+            return (
+              <ListItem>
+                <ListItemText>{skill.name}</ListItemText>
+              </ListItem>
+            );
+          })}
         </List>
       </Box>
+
+      {/* Soft Skills */}
       <Box mt={5} mr={20} mb={5} ml={20}>
         <Typography variant="h3" component="h2" gutterBottom>
           Soft Skills
         </Typography>
         <List>
-          <ListItem>
-            <ListItemText></ListItemText>
-          </ListItem>
+          {softSkills.map((skill) => {
+            return (
+              <ListItem>
+                <ListItemText>{skill.skill}</ListItemText>
+              </ListItem>
+            );
+          })}
         </List>
       </Box>
     </main>
