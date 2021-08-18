@@ -70,7 +70,7 @@ function Experience() {
                   variant="subtitle1"
                   component="p"
                   className={
-                    job.thirdPosition.dateRange === '' ? 'hiden' : 'date-range'
+                    job.thirdPosition.dateRange === '' ? 'hidden' : 'date-range'
                   }
                 >
                   {job.thirdPosition.dateRange}
@@ -108,7 +108,9 @@ function Experience() {
                   variant="subtitle1"
                   component="p"
                   className={
-                    job.secondPosition.dateRange === '' ? 'hiden' : 'date-range'
+                    job.secondPosition.dateRange === ''
+                      ? 'hidden'
+                      : 'date-range'
                   }
                 >
                   {job.secondPosition.dateRange}
@@ -143,7 +145,7 @@ function Experience() {
                   variant="subtitle1"
                   component="p"
                   className={
-                    job.firstPosition.dateRange === '' ? 'hiden' : 'date-range'
+                    job.firstPosition.dateRange === '' ? 'hidden' : 'date-range'
                   }
                 >
                   {job.firstPosition.dateRange}
