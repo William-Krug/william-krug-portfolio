@@ -1,11 +1,11 @@
 export const hardSkills = [
   {
     name: 'C',
-    icon: 'src/assets/images/c.svg',
+    icon: '../images/c.svg',
   },
   {
     name: 'CSS',
-    icon: 'src/assets/images/css.svg',
+    icon: '../images/css.svg',
   },
   {
     name: 'Express.js',
@@ -13,15 +13,15 @@ export const hardSkills = [
   },
   {
     name: 'HTML',
-    icon: '../../assets/images/html.svg',
+    icon: '../images/html.svg',
   },
   {
     name: 'Java',
-    icon: './images/java.svg',
+    icon: '../images/java.svg',
   },
   {
     name: 'JavaScript',
-    icon: './images/javascript.svg',
+    icon: '../images/javascript.svg',
   },
   {
     name: 'NPM',
@@ -29,31 +29,31 @@ export const hardSkills = [
   },
   {
     name: 'Node.js',
-    icon: './images/node-js.svg',
+    icon: '../images/node-js.svg',
   },
   {
     name: 'PostgreSQL',
-    icon: './images/postgresql.svg',
+    icon: '../images/postgresql.svg',
   },
   {
     name: 'Python',
-    icon: './images/python.svg',
+    icon: '../images/python.svg',
   },
   {
     name: 'React',
-    icon: './images/react.svg',
+    icon: '../images/react.svg',
   },
   {
     name: 'Redux',
-    icon: './images/redux.svg',
+    icon: '../images/redux.svg',
   },
   {
     name: 'Ruby',
-    icon: './images/ruby.svg',
+    icon: '../images/ruby.svg',
   },
   {
     name: 'Ruby on Rails',
-    icon: './images/rails.svg',
+    icon: '../images/rails.svg',
   },
   {
     name: 'Sagas',

@@ -7,10 +7,11 @@ import { softSkills } from './SoftSkills';
 
 /* Import Styling */
 import {
+  Avatar,
   Box,
   List,
   ListItem,
-  ListItemIcon,
+  ListItemAvatar,
   ListItemText,
   makeStyles,
   Typography,
@@ -39,19 +40,6 @@ function Skills() {
         </Typography>
       </Box>
 
-      <ul>
-        {hardSkills.map((skill) => {
-          return (
-            <>
-              <li>{skill.name}</li>
-              <span>
-                <img src={skill.icon} alt={skill.name} />
-              </span>
-            </>
-          );
-        })}
-      </ul>
-
       {/* Hard Skills */}
       <Box mt={5} mr={20} mb={5} ml={20}>
         <Typography variant="h3" component="h2" gutterBottom>
@@ -60,7 +48,19 @@ function Skills() {
         <List>
           {hardSkills.map((skill) => {
             return (
-              <ListItem>
+              <ListItem class="skills-list">
+                {/* <ListItemAvatar>
+                  <Avatar
+                    alt={skill.name}
+                    src={skill.icon}
+                    className={classes.large}
+                  />
+                </ListItemAvatar> */}
+                {skill.icon ? (
+                  <img src={skill.icon} alt={skill.name} class="skills-icon" />
+                ) : (
+                  ''
+                )}
                 <ListItemText>{skill.name}</ListItemText>
               </ListItem>
             );
