@@ -1,11 +1,11 @@
 export const hardSkills = [
   {
     name: 'C',
-    icon: 'src/components/images/c.svg',
+    icon: 'src/assets/images/c.svg',
   },
   {
     name: 'CSS',
-    icon: 'src/components/images/css.svg',
+    icon: 'src/assets/images/css.svg',
   },
   {
     name: 'Express.js',
@@ -13,7 +13,7 @@ export const hardSkills = [
   },
   {
     name: 'HTML',
-    icon: './images/html.svg',
+    icon: '../../assets/images/html.svg',
   },
   {
     name: 'Java',
