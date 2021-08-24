@@ -1,27 +1,26 @@
 export const softSkills = [
   {
-    skill: 'Lean Six Sigma',
+    name: 'Communication',
     icon: '',
   },
   {
-    skill: 'Leadership',
-    icon: '',
-  },
-
-  {
-    skill: 'Communication',
+    name: 'Customer Service',
     icon: '',
   },
   {
-    skill: 'Organization',
+    name: 'Leadership',
     icon: '',
   },
   {
-    skill: 'Problem Solving',
+    name: 'Organization',
     icon: '',
   },
   {
-    skill: 'Customer Service',
+    name: 'Problem Solving',
     icon: '',
+  },
+  {
+    name: 'Six Sigma',
+    icon: '../images/Six_sigma.svg',
   },
 ];

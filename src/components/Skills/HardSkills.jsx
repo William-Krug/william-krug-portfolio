@@ -9,7 +9,7 @@ export const hardSkills = [
   },
   {
     name: 'Express.js',
-    icon: '',
+    icon: '../images/express.svg',
   },
   {
     name: 'HTML',
@@ -25,7 +25,7 @@ export const hardSkills = [
   },
   {
     name: 'NPM',
-    icon: '',
+    icon: '../images/npm-logo.png',
   },
   {
     name: 'Node.js',
@@ -57,10 +57,10 @@ export const hardSkills = [
   },
   {
     name: 'Sagas',
-    icon: '',
+    icon: '../images/redux-saga-logo-png-transparent.png',
   },
   {
     name: 'SQL',
-    icon: '',
+    icon: '../images/sql.svg',
   },
 ];

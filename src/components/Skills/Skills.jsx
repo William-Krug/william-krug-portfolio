@@ -6,12 +6,11 @@ import { hardSkills } from './HardSkills';
 import { softSkills } from './SoftSkills';
 
 /* Import Styling */
+import './skills.css';
 import {
-  Avatar,
   Box,
   List,
   ListItem,
-  ListItemAvatar,
   ListItemText,
   makeStyles,
   Typography,
@@ -49,19 +48,17 @@ function Skills() {
           {hardSkills.map((skill) => {
             return (
               <ListItem class="skills-list">
-                {/* <ListItemAvatar>
-                  <Avatar
-                    alt={skill.name}
-                    src={skill.icon}
-                    className={classes.large}
-                  />
-                </ListItemAvatar> */}
-                {skill.icon ? (
-                  <img src={skill.icon} alt={skill.name} class="skills-icon" />
-                ) : (
-                  ''
-                )}
-                <ListItemText>{skill.name}</ListItemText>
+                <img src={skill.icon} alt={skill.name} class="skills-icon" />
+                <ListItemText>
+                  <Typography
+                    variant="h3"
+                    component="h2"
+                    gutterBottom
+                    class="skills-title"
+                  >
+                    {skill.name}
+                  </Typography>
+                </ListItemText>
               </ListItem>
             );
           })}
@@ -76,8 +73,18 @@ function Skills() {
         <List>
           {softSkills.map((skill) => {
             return (
-              <ListItem>
-                <ListItemText>{skill.skill}</ListItemText>
+              <ListItem class="skills-list">
+                <img src={skill.icon} alt={skill.name} class="skills-icon" />
+                <ListItemText>
+                  <Typography
+                    variant="h3"
+                    component="h2"
+                    gutterBottom
+                    class="skills-title"
+                  >
+                    {skill.name}
+                  </Typography>
+                </ListItemText>
               </ListItem>
             );
           })}

@@ -1,0 +1,23 @@
+.skills-list {
+  display: inline-flex;
+  align-items: center;
+  width: 23em;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+.skills-icon {
+  width: 4em;
+  height: auto;
+  object-fit: contain;
+  padding-right: 1em;
+}
+
+.skills-title {
+  font-size: 2em;
+}
+
+h2.skills-title {
+  margin: 0;
+  padding: 0;
+}
