@@ -91,11 +91,11 @@ function LeftDrawer() {
       icon: <AppsIcon />,
       path: '/projects',
     },
-    // {
-    //   text: 'Skills',
-    //   icon: <CodeIcon />,
-    //   path: '/skills',
-    // },
+    {
+      text: 'Skills',
+      icon: <CodeIcon />,
+      path: '/skills',
+    },
     {
       text: 'Experience',
       icon: <WorkIcon />,

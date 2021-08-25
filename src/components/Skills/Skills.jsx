@@ -40,7 +40,7 @@ function Skills() {
       </Box>
 
       {/* Hard Skills */}
-      <Box mt={5} mr={20} mb={5} ml={20}>
+      <Box mt={5} mr={20} mb={10} ml={20}>
         <Typography variant="h3" component="h2" gutterBottom>
           Hard Skills
         </Typography>

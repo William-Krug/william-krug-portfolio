@@ -1,66 +1,72 @@
+/**
+ * List of languages, frameworks, and libraries with
+ * experience in
+ *
+ * Listed alphabetically
+ */
 export const hardSkills = [
   {
     name: 'C',
-    icon: '../images/c.svg',
+    icon: '../images/hardSkills/c.svg',
   },
   {
     name: 'CSS',
-    icon: '../images/css.svg',
+    icon: '../images/hardSkills/css.svg',
   },
   {
     name: 'Express.js',
-    icon: '../images/express.svg',
+    icon: '../images/hardSkills/express.svg',
   },
   {
     name: 'HTML',
-    icon: '../images/html.svg',
+    icon: '../images/hardSkills/html.svg',
   },
   {
     name: 'Java',
-    icon: '../images/java.svg',
+    icon: '../images/hardSkills/java.svg',
   },
   {
     name: 'JavaScript',
-    icon: '../images/javascript.svg',
+    icon: '../images/hardSkills/javascript.svg',
   },
   {
     name: 'NPM',
-    icon: '../images/npm-logo.png',
+    icon: '../images/hardSkills/npm-logo.png',
   },
   {
     name: 'Node.js',
-    icon: '../images/node-js.svg',
+    icon: '../images/hardSkills/node-js.svg',
   },
   {
     name: 'PostgreSQL',
-    icon: '../images/postgresql.svg',
+    icon: '../images/hardSkills/postgresql.svg',
   },
   {
     name: 'Python',
-    icon: '../images/python.svg',
+    icon: '../images/hardSkills/python.svg',
   },
   {
     name: 'React',
-    icon: '../images/react.svg',
+    icon: '../images/hardSkills/react.svg',
   },
   {
     name: 'Redux',
-    icon: '../images/redux.svg',
+    icon: '../images/hardSkills/redux.svg',
   },
   {
     name: 'Ruby',
-    icon: '../images/ruby.svg',
+    icon: '../images/hardSkills/ruby.svg',
   },
   {
     name: 'Ruby on Rails',
-    icon: '../images/rails.svg',
+    icon: '../images/hardSkills/rails.svg',
   },
   {
     name: 'Sagas',
-    icon: '../images/redux-saga-logo-png-transparent.png',
+    icon: '../images/hardSkills/redux-saga-logo-png-transparent.png',
   },
   {
     name: 'SQL',
-    icon: '../images/sql.svg',
+    icon: '../images/hardSkills/sql.svg',
   },
 ];
