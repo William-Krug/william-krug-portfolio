@@ -1,5 +1,6 @@
 /**
- * List of teamwork and office skills with experience in
+ * List of teamwork and office skills that I have
+ * experience in
  *
  * Listed alphabetically
  */

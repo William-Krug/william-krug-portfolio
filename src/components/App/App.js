@@ -16,7 +16,7 @@ import './App.css';
 import { CssBaseline } from '@material-ui/core';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 
-const drawerWidth = 240;
+// const drawerWidth = 240;
 
 /*
   Generate own Material-UI theme

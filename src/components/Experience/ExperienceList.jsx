@@ -1,3 +1,8 @@
+/**
+ * List of places I have worked at
+ *
+ * Listed chronologically from the most recent back
+ */
 export const experienceList = [
   {
     company: 'LAB651',

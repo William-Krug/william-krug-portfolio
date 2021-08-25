@@ -1,5 +1,5 @@
 /**
- * List of languages, frameworks, and libraries with
+ * List of languages, frameworks, and libraries that I have
  * experience in
  *
  * Listed alphabetically

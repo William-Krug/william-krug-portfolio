@@ -1,3 +1,6 @@
+/**
+ * List of projects that I want to showcase
+ */
 export const projectsList = [
   {
     title: 'My Running Journal',

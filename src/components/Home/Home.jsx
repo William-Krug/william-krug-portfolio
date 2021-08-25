@@ -38,7 +38,7 @@ function Home() {
             Krug
           </Typography>
         </Box>
-        <Box mt={2} mb={2} mr={10}>
+        <Box mt={3} mb={2} mr={10}>
           <Typography variant="body1" component="p">
             A full stack software developer that loves a good challenge and
             problem to solve.
@@ -57,7 +57,7 @@ function Home() {
             </Link>
           </Typography>
         </Box>
-        <Box mt={3} mb={2}>
+        <Box mt={4} mb={2}>
           <Button
             variant="contained"
             endIcon={<SaveAltIcon />}
