@@ -15,6 +15,7 @@ export const educationList = [
                   Scoping, and Teamwork.`,
     link: 'https://primeacademy.io/',
     linkShown: 'primeacademy.io',
+    image: '../images/education/prime.jpeg',
   },
   {
     school: 'Normandale Community College',
@@ -25,6 +26,7 @@ export const educationList = [
                   Solving, Public Speaking and Technical Writing.`,
     link: 'https://www.normandale.edu/',
     linkShown: 'normandale.edu',
+    image: '../images/education/normandale3.png',
   },
   {
     school: 'Universal Technical Institute (UTI)',
@@ -36,5 +38,6 @@ export const educationList = [
                   Diagnostics, FORD Factory Training, and Audi Factory Training.`,
     link: 'https://start.uti.edu/',
     linkShown: 'start.uti.edu',
+    image: '../images/education/UIT.png',
   },
 ];
