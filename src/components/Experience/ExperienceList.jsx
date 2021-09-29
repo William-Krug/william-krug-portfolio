@@ -5,8 +5,38 @@
  */
 export const experienceList = [
   {
+    company: 'ExperienceIT',
+    totalDateRange: 'October 2021 - Current',
+    firstPosition: {
+      title: 'Associate Software Developer',
+      dateRange: '',
+      bullet1: ``,
+      bullet2: ``,
+      bullet3: ``,
+      bullet4: ``,
+    },
+    secondPosition: {
+      title: '',
+      dateRange: '',
+      bullet1: ``,
+      bullet2: ``,
+      bullet3: ``,
+      bullet4: ``,
+    },
+    thirdPosition: {
+      title: '',
+      dateRange: '',
+      bullet1: ``,
+      bullet2: ``,
+      bullet3: ``,
+      bullet4: ``,
+    },
+    websiteLink: 'https://eitmn.com/',
+    displayedLink: 'eitmn.com',
+  },
+  {
     company: 'LAB651',
-    totalDateRange: 'May 2021 - Current',
+    totalDateRange: 'May 2021 - September 2021',
     firstPosition: {
       title: 'Full Stack Software Developer',
       dateRange: '',
