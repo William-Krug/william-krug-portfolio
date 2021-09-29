@@ -26,7 +26,7 @@ export const educationList = [
                   Solving, Public Speaking and Technical Writing.`,
     link: 'https://www.normandale.edu/',
     linkShown: 'normandale.edu',
-    image: '../images/education/normandale3.png',
+    image: '../images/education/normandale.jpeg',
   },
   {
     school: 'Universal Technical Institute (UTI)',
@@ -38,6 +38,6 @@ export const educationList = [
                   Diagnostics, FORD Factory Training, and Audi Factory Training.`,
     link: 'https://start.uti.edu/',
     linkShown: 'start.uti.edu',
-    image: '../images/education/UIT.png',
+    image: '../images/education/UTI.png',
   },
 ];
