@@ -184,7 +184,7 @@ function LeftDrawer() {
         <Box>
           <Grid container justify="center" alignItems="flex-end">
             <Grid item>
-              <Box mt={30}>
+              <Box mt={1}>
                 {socialMedia.map((item) => {
                   return (
                     <Link

@@ -11,7 +11,7 @@ _Duration: 1 Weekend Sprint_
 
 This portfolio app was create to showcase my abilities as a software developer and highlight some of my personal projects. An Experience and Education have been added to give background and an About and Contact page for character. This app was built with React and Material-UI.
 
-To see the fully functional site, please visit: [My Running Journal](https://william-krug-portfolio.herokuapp.com/#/home)
+To see the fully functional site, please visit: [William Krug's Portfolio](https://william-krug-portfolio.herokuapp.com/#/home)
 
 ## Screen Shot
 
