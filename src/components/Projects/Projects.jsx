@@ -25,31 +25,42 @@ function Projects() {
 
   return (
     <main className={classes.content}>
+      {/* Page Heading */}
       <Box m={10}>
         <Typography variant="h2" component="h1">
           Projects
         </Typography>
       </Box>
+
+      {/* Projects List */}
       <Box mt={5} mr={20} mb={5} ml={20}>
         <Grid container spacing={5}>
           {projectsList.map((project) => {
             return (
               <Grid item xs={6}>
                 <Box mb={10}>
+                  {/* Project Title */}
                   <Typography variant="h3" component="h2">
                     {project.title}
                   </Typography>
+
+                  {/* Project Description */}
                   <Box mt={3} mb={3}>
                     <Typography variant="body1" component="p">
                       {project.description}
                     </Typography>
                   </Box>
+
+                  {/* Technologies */}
                   <Box mt={3} mb={3}>
                     <Typography variant="body1" component="p">
                       Technologies Used: {project.technologies}
                     </Typography>
                   </Box>
+
+                  {/* Links */}
                   <Box mt={3} mb={3}>
+                    {/* GitHub */}
                     <Typography variant="body1" component="p">
                       Dive into the repo on{' '}
                       <Link
@@ -62,6 +73,8 @@ function Projects() {
                       </Link>
                       .
                     </Typography>
+
+                    {/* Deployed */}
                     <Typography
                       variant="body1"
                       component="p"

@@ -43,17 +43,17 @@
 ## Education Page
 
 - [x] Prime
-  - [ ] logo / image
+  - [x] logo / image
   - [x] link to page
   - [x] degree
   - [x] graduation date
 - [x] Normandale
-  - [ ] logo / image
+  - [x] logo / image
   - [x] link to page
   - [x] degree
   - [x] graduation date
 - [x] UTI
-  - [ ] logo / image
+  - [x] logo / image
   - [x] link to page
   - [x] degree
   - [x] graduation date
@@ -76,7 +76,7 @@
 ## Mobile Responsive
 
 - [ ] Navigation pane becomes hamburger
-  - [ ] social media links become regular links??
+  - [x] social media links become regular links??
   - [ ] left side menu
 - [ ] Home page
 - [ ] Projects page

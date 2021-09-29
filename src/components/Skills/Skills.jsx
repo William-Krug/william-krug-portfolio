@@ -33,6 +33,7 @@ function Skills() {
 
   return (
     <main className={classes.content}>
+      {/* Page Heading */}
       <Box m={10}>
         <Typography variant="h2" component="h1">
           Skills
@@ -44,11 +45,16 @@ function Skills() {
         <Typography variant="h3" component="h2" gutterBottom>
           Hard Skills
         </Typography>
+
+        {/* Skills List */}
         <List>
           {hardSkills.map((skill) => {
             return (
               <ListItem class="skills-list">
+                {/* Icon */}
                 <img src={skill.icon} alt={skill.name} class="skills-icon" />
+
+                {/* SKill */}
                 <ListItemText>
                   <Typography
                     variant="h3"
@@ -70,11 +76,16 @@ function Skills() {
         <Typography variant="h3" component="h2" gutterBottom>
           Soft Skills
         </Typography>
+
+        {/* Skills List */}
         <List>
           {softSkills.map((skill) => {
             return (
               <ListItem class="skills-list">
+                {/* Icon */}
                 <img src={skill.icon} alt={skill.name} class="skills-icon" />
+
+                {/* Skill */}
                 <ListItemText>
                   <Typography
                     variant="h3"

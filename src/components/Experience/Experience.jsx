@@ -33,11 +33,14 @@ function Experience() {
 
   return (
     <main className={classes.content}>
+      {/* Page Heading */}
       <Box m={10}>
         <Typography variant="h2" component="h1">
           Experience
         </Typography>
       </Box>
+
+      {/* Experience Details */}
       <Box mt={5} mr={20} mb={5} ml={20}>
         {experienceList.map((job) => {
           return (
