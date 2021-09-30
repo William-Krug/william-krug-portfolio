@@ -64,7 +64,7 @@ function Experience() {
                 mt={2}
                 mr={20}
                 ml={3}
-                className={job.thirdPosition.title === '' ? 'hidden' : ''}
+                className={job.thirdPosition.title === '' ? 'hidden' : null}
               >
                 <Typography variant="body1" component="p" className="job-title">
                   <strong>{job.thirdPosition.title}</strong>
@@ -79,21 +79,21 @@ function Experience() {
                   {job.thirdPosition.dateRange}
                 </Typography>
                 <List
-                  className={job.thirdPosition.bullet1 === '' ? 'hidden' : ''}
+                  className={job.thirdPosition.bullet1 === '' ? 'hidden' : null}
                 >
                   <ListItem>
                     <ListItemText>{job.thirdPosition.bullet1}</ListItemText>
                   </ListItem>
-                  <ListItem
-                    className={job.thirdPosition.bullet2 === '' ? 'hidden' : ''}
-                  >
-                    <ListItemText>{job.thirdPosition.bullet2}</ListItemText>
-                  </ListItem>
-                  <ListItem
-                    className={job.thirdPosition.bullet3 === '' ? 'hidden' : ''}
-                  >
-                    <ListItemText>{job.thirdPosition.bullet3}</ListItemText>
-                  </ListItem>
+                  {job.thirdPosition.bullet2 !== '' ? (
+                    <ListItem>
+                      <ListItemText primary={job.thirdPosition.bullet2} />
+                    </ListItem>
+                  ) : null}
+                  {job.thirdPosition.bullet3 !== '' ? (
+                    <ListItem>
+                      <ListItemText primary={job.thirdPosition.bullet3} />
+                    </ListItem>
+                  ) : null}
                 </List>
               </Box>
 
@@ -102,7 +102,7 @@ function Experience() {
                 mt={2}
                 mr={20}
                 ml={3}
-                className={job.secondPosition.title === '' ? 'hidden' : ''}
+                className={job.secondPosition.title === '' ? 'hidden' : null}
               >
                 <Typography variant="body1" component="p" className="job-title">
                   <strong>{job.secondPosition.title}</strong>
@@ -111,7 +111,7 @@ function Experience() {
                   variant="subtitle1"
                   component="p"
                   className={
-                    job.secondPosition.dateRange === ''
+                    job.secondPosition.dateRange === null
                       ? 'hidden'
                       : 'date-range'
                   }
@@ -122,20 +122,16 @@ function Experience() {
                   <ListItem>
                     <ListItemText>{job.secondPosition.bullet1}</ListItemText>
                   </ListItem>
-                  <ListItem
-                    className={
-                      job.secondPosition.bullet2 === '' ? 'hidden' : ''
-                    }
-                  >
-                    <ListItemText>{job.secondPosition.bullet2}</ListItemText>
-                  </ListItem>
-                  <ListItem
-                    className={
-                      job.secondPosition.bullet3 === '' ? 'hidden' : ''
-                    }
-                  >
-                    <ListItemText>{job.secondPosition.bullet3}</ListItemText>
-                  </ListItem>
+                  {job.secondPosition.bullet2 !== '' ? (
+                    <ListItem>
+                      <ListItemText primary={job.secondPosition.bullet2} />
+                    </ListItem>
+                  ) : null}
+                  {job.secondPosition.bullet3 !== '' ? (
+                    <ListItem>
+                      <ListItemText primary={job.secondPosition.bullet3} />
+                    </ListItem>
+                  ) : null}
                 </List>
               </Box>
 
@@ -155,23 +151,23 @@ function Experience() {
                 </Typography>
                 <List>
                   <ListItem>
-                    <ListItemText>{job.firstPosition.bullet1}</ListItemText>
+                    <ListItemText primary={job.firstPosition.bullet1} />
                   </ListItem>
-                  <ListItem
-                    className={job.firstPosition.bullet2 === '' ? 'hidden' : ''}
-                  >
-                    <ListItemText>{job.firstPosition.bullet2}</ListItemText>
-                  </ListItem>
-                  <ListItem
-                    className={job.firstPosition.bullet3 === '' ? 'hidden' : ''}
-                  >
-                    <ListItemText>{job.firstPosition.bullet3}</ListItemText>
-                  </ListItem>
-                  <ListItem
-                    className={job.firstPosition.bullet4 === '' ? 'hidden' : ''}
-                  >
-                    <ListItemText>{job.firstPosition.bullet4}</ListItemText>
-                  </ListItem>
+                  {job.firstPosition.bullet2 !== '' ? (
+                    <ListItem>
+                      <ListItemText primary={job.firstPosition.bullet2} />
+                    </ListItem>
+                  ) : null}
+                  {job.firstPosition.bullet3 !== '' ? (
+                    <ListItem>
+                      <ListItemText primary={job.firstPosition.bullet3} />
+                    </ListItem>
+                  ) : null}
+                  {job.firstPosition.bullet4 !== '' ? (
+                    <ListItem>
+                      <ListItemText primary={job.firstPosition.bullet4} />
+                    </ListItem>
+                  ) : null}
                 </List>
               </Box>
 
@@ -179,7 +175,7 @@ function Experience() {
               <Box
                 mr={20}
                 ml={3}
-                className={job.websiteLink === '' ? 'hidden' : ''}
+                className={job.websiteLink === '' ? 'hidden' : null}
               >
                 <Link
                   href={job.websiteLink}
