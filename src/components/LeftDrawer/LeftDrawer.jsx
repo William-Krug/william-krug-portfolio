@@ -1,6 +1,6 @@
 /* Import Libraries */
 import React from 'react';
-import { useHistory } from 'react-router-dom';
+import { useHistory, useLocation } from 'react-router-dom';
 
 /* Import Styles */
 import {
@@ -73,11 +73,19 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   kid: {},
+  active: {
+    // background: '#f4f4f4',
+    background: '#d32f2f',
+    '& $kid': {
+      color: '#ffffff',
+    },
+  },
 }));
 
 function LeftDrawer() {
   const classes = useStyles();
   const history = useHistory();
+  const location = useLocation();
 
   // List of navigation links
   const menuItems = [
@@ -168,7 +176,12 @@ function LeftDrawer() {
           {menuItems.map((item) => {
             return (
               <ListItem
-                className={classes.navLink}
+                // className={classes.navLink}
+                className={
+                  location.pathname == item.path
+                    ? classes.active
+                    : classes.navLink
+                }
                 button
                 key={item.text}
                 onClick={() => history.push(item.path)}
