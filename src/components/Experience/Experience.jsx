@@ -44,7 +44,7 @@ function Experience() {
       <Box mt={5} mr={20} mb={5} ml={20}>
         {experienceList.map((job) => {
           return (
-            <Box mb={7}>
+            <Box mb={10}>
               {/* Company Name & Employment Year Range */}
               <Box mt={2} mb={2} ml={3}>
                 <Typography variant="h3" component="h2">

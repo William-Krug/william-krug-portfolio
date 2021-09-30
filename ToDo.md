@@ -37,8 +37,8 @@
 
 ## Experience Page
 
-- [ ] Odd spacing / gaps for Flow
-- [ ] Bold content
+- [x] Odd spacing / gaps for Flow
+- [x] Bold content
 
 ## Education Page
 
