@@ -58,12 +58,12 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.default,
     padding: theme.spacing(3),
   },
-  clickableIcon: {
-    '&:hover': {
-      color: '#d32f2f',
-    },
-    margin: 15,
-  },
+  // clickableIcon: {
+  //   '&:hover': {
+  //     color: '#d32f2f',
+  //   },
+  //   margin: 15,
+  // },
   navLink: {
     '&:hover': {
       backgroundColor: '#d32f2f',
@@ -74,11 +74,16 @@ const useStyles = makeStyles((theme) => ({
   },
   kid: {},
   active: {
-    // background: '#f4f4f4',
     background: '#d32f2f',
     '& $kid': {
       color: '#ffffff',
     },
+    // '&:hover': {
+    //   backgroundColor: '#f4f4f4',
+    //   '& $kid': {
+    //     color: '#656565',
+    //   },
+    // },
   },
 }));
 
@@ -129,10 +134,12 @@ function LeftDrawer() {
   // List of social media links
   const socialMedia = [
     {
+      text: 'GitHub',
       icon: <GitHubIcon className={classes.clickableIcon} />,
       link: 'https://github.com/William-Krug',
     },
     {
+      text: 'LinkedIn',
       icon: <LinkedInIcon className={classes.clickableIcon} />,
       link: 'https://www.linkedin.com/in/william-krug-67a86ab6/',
     },
@@ -173,6 +180,7 @@ function LeftDrawer() {
 
         {/* Navigation Links */}
         <List>
+          {/* Site Links */}
           {menuItems.map((item) => {
             return (
               <ListItem
@@ -189,6 +197,26 @@ function LeftDrawer() {
                 <ListItemIcon className={classes.kid}>{item.icon}</ListItemIcon>
                 <ListItemText className={classes.kid} primary={item.text} />
               </ListItem>
+            );
+          })}
+
+          {/* External Links (Social Media) */}
+          {socialMedia.map((item) => {
+            return (
+              <Link
+                href={item.link}
+                target="_blank"
+                rel="noreferrer"
+                color="inherit"
+                underline="none"
+              >
+                <ListItem className={classes.navLink} button key={item.link}>
+                  <ListItemIcon className={classes.kid}>
+                    {item.icon}
+                  </ListItemIcon>
+                  <ListItemText className={classes.kid} primary={item.text} />
+                </ListItem>
+              </Link>
             );
           })}
         </List>
