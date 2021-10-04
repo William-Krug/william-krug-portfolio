@@ -58,12 +58,12 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.default,
     padding: theme.spacing(3),
   },
-  // clickableIcon: {
-  //   '&:hover': {
-  //     color: '#d32f2f',
-  //   },
-  //   margin: 15,
-  // },
+  clickableIcon: {
+    '&:hover': {
+      color: '#d32f2f',
+    },
+    margin: 15,
+  },
   navLink: {
     '&:hover': {
       backgroundColor: '#d32f2f',
@@ -78,12 +78,12 @@ const useStyles = makeStyles((theme) => ({
     '& $kid': {
       color: '#ffffff',
     },
-    // '&:hover': {
-    //   backgroundColor: '#f4f4f4',
-    //   '& $kid': {
-    //     color: '#656565',
-    //   },
-    // },
+    '&:hover': {
+      backgroundColor: '#f4f4f4',
+      '& $kid': {
+        color: '#656565',
+      },
+    },
   },
 }));
 
@@ -200,8 +200,10 @@ function LeftDrawer() {
             );
           })}
 
+          {/* <Divider /> */}
+
           {/* External Links (Social Media) */}
-          {socialMedia.map((item) => {
+          {/* {socialMedia.map((item) => {
             return (
               <Link
                 href={item.link}
@@ -218,7 +220,7 @@ function LeftDrawer() {
                 </ListItem>
               </Link>
             );
-          })}
+          })} */}
         </List>
 
         {/* Social Media */}

@@ -8,7 +8,7 @@ export const experienceList = [
     company: 'ExperienceIT',
     totalDateRange: 'October 2021 - Current',
     firstPosition: {
-      title: 'Associate Software Developer',
+      title: 'Associate Software Engineer I',
       dateRange: '',
       bullet1: ``,
       bullet2: ``,
