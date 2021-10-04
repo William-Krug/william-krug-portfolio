@@ -4,6 +4,7 @@
  * Listed chronologically from the most recent back
  */
 export const experienceList = [
+  // ExperienceIT
   {
     company: 'ExperienceIT',
     totalDateRange: 'October 2021 - Current',
@@ -34,6 +35,8 @@ export const experienceList = [
     websiteLink: 'https://eitmn.com/',
     displayedLink: 'eitmn.com',
   },
+
+  // LAB651
   {
     company: 'LAB651',
     totalDateRange: 'May 2021 - September 2021',
@@ -65,6 +68,8 @@ export const experienceList = [
     websiteLink: 'https://lab651.com/',
     displayedLink: 'lab651.com',
   },
+
+  // Prime
   {
     company: 'Prime Digital Academy',
     totalDateRange: 'December 2020 - April 2021',
@@ -108,6 +113,8 @@ export const experienceList = [
     websiteLink: 'https://primeacademy.io/',
     displayedLink: 'primeacademy.io',
   },
+
+  // Identifix
   {
     company: 'Solera Holding / Identifix',
     totalDateRange: 'June 2009 - September 2020',
@@ -140,6 +147,8 @@ export const experienceList = [
     websiteLink: 'https://www.identifix.com/',
     displayedLink: 'identifix.com',
   },
+
+  // EMAA
   {
     company: 'European Medieval Arts of Arms, llc',
     totalDateRange: 'June 2006 - May 2009',
@@ -169,6 +178,8 @@ export const experienceList = [
     websiteLink: '',
     displayedLink: '',
   },
+
+  // Flow
   {
     company: 'Flow Automotive Companies',
     totalDateRange: 'August 2005 - May 2009',
@@ -198,6 +209,8 @@ export const experienceList = [
     websiteLink: 'https://www.flowauto.com/',
     displayedLink: 'flowauto.com',
   },
+
+  // Chili's
   {
     company: `Chili's Grill & Bar`,
     totalDateRange: 'August 2003 - June 2005',
@@ -227,6 +240,8 @@ export const experienceList = [
     websiteLink: 'https://www.chilis.com/',
     displayedLink: 'chilis.com',
   },
+
+  // Weinhagen's
   {
     company: 'Weinhagen Tire Company',
     totalDateRange: 'June 2002 - August 2003',
@@ -255,6 +270,8 @@ export const experienceList = [
     websiteLink: 'https://weinhagen.com/',
     displayedLink: 'weinhagen.com',
   },
+
+  // Dairy Queen
   {
     company: 'Dairy Queen',
     totalDateRange: 'June 2000 - June 2002',
