@@ -46,7 +46,7 @@ export const experienceList = [
       bullet1: `Collaborated with other developers to create features matching
                 customer's requirements.`,
       bullet2: `Focused on front end design and functionality.`,
-      bullet3: `Acquired additional skills learning a new language and framework.`,
+      bullet3: `Explored new techniques and acquired additional skills with Ruby on Rails.`,
       bullet4: ``,
     },
     secondPosition: {
