@@ -10,6 +10,10 @@ export const hardSkills = [
     icon: '../images/hardSkills/c.svg',
   },
   {
+    name: 'C#',
+    icon: '../images/hardSkills/cSharp.svg',
+  },
+  {
     name: 'CSS',
     icon: '../images/hardSkills/css.svg',
   },
