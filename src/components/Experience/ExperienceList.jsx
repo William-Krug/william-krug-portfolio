@@ -11,8 +11,10 @@ export const experienceList = [
     firstPosition: {
       title: 'Associate Software Engineer I',
       dateRange: '',
-      bullet1: `Constructed new internal endpoints to meet Canadian requirements for payments and taxes`,
-      bullet2: `Assisted in story creation and refinement to ensure features are ready for development`,
+      bullet1: `Constructed new internal endpoints to meet Canadian requirements for 
+                payments and taxes.`,
+      bullet2: `Assisted in story creation and refinement to ensure features are ready 
+                for development.`,
       bullet3: `Participated in SAFe Agile training and practices`,
       bullet4: ``,
     },
