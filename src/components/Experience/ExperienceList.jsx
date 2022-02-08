@@ -13,10 +13,9 @@ export const experienceList = [
       dateRange: '',
       bullet1: `Constructed new internal endpoints to meet Canadian requirements for 
                 payments and taxes.`,
-      bullet2: `Assisted in story creation and refinement to ensure features are ready 
-                for development.`,
-      bullet3: `Participated in SAFe Agile training and practices`,
-      bullet4: ``,
+      bullet2: `Developed console application for TIN reporting using ASP.NET CORE to be integrated into final solution during future iterations.`,
+      bullet3: `Migrated Data Fusion technology into Dayforce application.`,
+      bullet4: `Participated in SAFe Agile training and practices.`,
     },
     secondPosition: {
       title: '',
