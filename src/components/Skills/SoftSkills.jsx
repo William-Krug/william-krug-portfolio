@@ -26,6 +26,10 @@ export const softSkills = [
     icon: '../images/softSkills/problem-solving.png',
   },
   {
+    name: 'SAFe for Teams',
+    icon: '../images/softSkills/safe-for-teams.png',
+  },
+  {
     name: 'Six Sigma',
     icon: '../images/softSkills/Six_sigma.svg',
   },
