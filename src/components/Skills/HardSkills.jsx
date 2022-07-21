@@ -6,6 +6,10 @@
  */
 export const hardSkills = [
   {
+    name: 'Blazor',
+    icon: '../images/hardSkills/blazor.svg',
+  },
+  {
     name: 'C',
     icon: '../images/hardSkills/c.svg',
   },

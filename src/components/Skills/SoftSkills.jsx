@@ -30,6 +30,14 @@ export const softSkills = [
     icon: '../images/softSkills/safe-for-teams.png',
   },
   {
+    name: 'SAFe Product Owner / Product Manager',
+    icon: '../images/softSkills/safe-pmpo.png',
+  },
+  {
+    name: 'SAFe Scrum Master',
+    icon: '../images/softSkills/safe-scrum-master.png',
+  },
+  {
     name: 'Six Sigma',
     icon: '../images/softSkills/Six_sigma.svg',
   },

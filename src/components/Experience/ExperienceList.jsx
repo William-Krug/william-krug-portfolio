@@ -11,10 +11,11 @@ export const experienceList = [
     firstPosition: {
       title: 'Associate Software Engineer I',
       dateRange: '',
-      bullet1: `Constructed new internal endpoints to meet Canadian requirements for 
+      bullet1: `Collaborated in a green field project building a reporting application 
+                for government contractors using C# and Blazor.`,
+      bullet2: `Constructed new internal endpoints to meet Canadian requirements for 
                 payments and taxes.`,
-      bullet2: `Developed console application for TIN reporting using ASP.NET CORE to be integrated into final solution during future iterations.`,
-      bullet3: `Migrated Data Fusion technology into Dayforce application.`,
+      bullet3: `Developed console application for TIN reporting using ASP.NET CORE.`,
       bullet4: `Participated in SAFe Agile training and practices.`,
     },
     secondPosition: {
