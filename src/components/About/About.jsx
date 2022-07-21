@@ -72,11 +72,11 @@ function About() {
       <Box mt={5} mr={20} mb={5} ml={20}>
         <Typography variant="body1" component="p">
           In my free time I love to run. For fun, for sport, for peace of mind,
-          running can handle it all. Whether I'm training for a 5, OCR (obstacle
-          course race), or marathon, putting foot to pavement brings a sense of
-          peace and calm that washes away troubles and brings peace of mind. I
-          often find myself finding solutions to all sorts of questions and
-          problems while on a run that previously eluded me. For me, running
+          running can handle it all. Whether I'm training for a 5k, OCR
+          (obstacle course race), or marathon, putting foot to pavement brings a
+          sense of peace and calm that washes away troubles and brings peace of
+          mind. I often find myself finding solutions to all sorts of questions
+          and problems while on a run that previously eluded me. For me, running
           isn't jut a hobby but a necessity to traverse the paths in life.
         </Typography>
       </Box>

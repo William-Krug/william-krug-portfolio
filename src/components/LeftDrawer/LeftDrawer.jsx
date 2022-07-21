@@ -158,7 +158,7 @@ function LeftDrawer() {
         {/* Avatar */}
         <Grid container justify="center">
           <Grid item>
-            <Box mt={10}>
+            <Box mt={5}>
               <div className={classes.root}>
                 <Avatar
                   alt="William Krug"
