@@ -13,10 +13,10 @@ export const experienceList = [
       dateRange: '',
       bullet1: `Collaborated in a green field project building a reporting application 
                 for government contractors using C# and Blazor.`,
-      bullet2: `Constructed new internal endpoints to meet Canadian requirements for 
+      bullet2: `Partnered with newer developers on problem solving and pair programming to refactor code base.`,
+      bullet3: `Constructed new internal endpoints to meet Canadian requirements for 
                 payments and taxes.`,
-      bullet3: `Developed console application for TIN reporting using ASP.NET CORE.`,
-      bullet4: `Participated in SAFe Agile training and practices.`,
+      bullet4: `Developed console application for TIN reporting using ASP.NET CORE.`,
     },
     secondPosition: {
       title: '',
