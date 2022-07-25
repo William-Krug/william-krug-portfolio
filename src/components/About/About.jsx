@@ -31,7 +31,7 @@ function About() {
       {/* Page Heading */}
       <Box m={10}>
         <Typography variant="h2" component="h1">
-          About Banana
+          About Me
         </Typography>
       </Box>
 
