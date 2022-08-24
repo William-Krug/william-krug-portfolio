@@ -40,3 +40,45 @@
   padding: 0.25em 0.5em;
   cursor: pointer;
 }
+
+@media (max-width: 450px) and (orientation: portrait) {
+  #home-page {
+    margin: 0 2em;
+  }
+
+  #home-intro {
+    margin: 2em 0 1em 0;
+  }
+
+  #home-intro h1 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 4em;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .body-text {
+    font-family: 'Lora', serif;
+    font-size: 1.25em;
+    /* font-weight: 400; */
+  }
+
+  #home-conversation a:link {
+    color: #d32f2f;
+    text-decoration: none;
+  }
+
+  #home-conversation a:visited {
+    color: #0000ee;
+    text-decoration: none;
+  }
+
+  #home-download button {
+    background-color: #d32f2f;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 1.25em;
+    padding: 0.25em 0.5em;
+  }
+}

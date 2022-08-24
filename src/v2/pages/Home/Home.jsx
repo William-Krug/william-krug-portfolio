@@ -3,10 +3,6 @@ import './Home.css';
 import resume from '../../../william-krug-resume.pdf';
 
 function Home() {
-  // function pingMe() {
-  //   console.log('\n\n*** Home => pingMe() ***');
-  // }
-
   return (
     <div id="home-page">
       <div id="home-intro">
@@ -33,11 +29,9 @@ function Home() {
         </p>
       </div>
       <div id="home-download">
-        {/* <a href="../../../william-krug-resume.pdf" download={resume}> */}
+                                    
         <a href={resume} download="william-krug-resume">
-          <button
-          // onClick={pingMe}
-          >
+          <button>
             Download CV{' '}
             <span>
               <i class="bx bx-download"></i>
