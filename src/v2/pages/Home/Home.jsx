@@ -29,7 +29,6 @@ function Home() {
         </p>
       </div>
       <div id="home-download">
-                                    
         <a href={resume} download="william-krug-resume">
           <button>
             Download CV{' '}
